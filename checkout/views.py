@@ -11,6 +11,7 @@ from bag.contexts import bag_contents
 import stripe
 import json
 
+
 @require_POST
 def cache_checkout_data(request):
     try:
@@ -135,4 +136,3 @@ def checkout_success(request, order_number):
     }
 
     return render(request, template, context)
-    
