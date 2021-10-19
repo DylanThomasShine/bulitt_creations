@@ -1,5 +1,5 @@
 """
-WSGI config for boutique_ado project.
+WSGI config for bulitt_creations project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'boutique_ado.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bulitt_creations.settings')
 
 application = get_wsgi_application()
