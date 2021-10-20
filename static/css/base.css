@@ -21,7 +21,10 @@ body {
 
 .logo-font {
     text-transform: uppercase;
-    text-shadow: 2px 2px #0000;
+}
+
+#bulitt {
+    text-shadow: 2px 2px #000
 }
 
 .main-logo-link {
