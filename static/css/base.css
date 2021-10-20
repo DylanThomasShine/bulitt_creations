@@ -56,6 +56,16 @@ body {
     text-shadow: 0px 0px 5px #000;
 }
 
+#heading {
+    object-fit: contain;
+    background-color: rgb(182, 173, 173);
+    border-style: groove;
+    border-width: thick;
+    border-color: gray;
+    padding: 5px;
+    float: left;
+}
+
 #image-container {
     object-fit: contain;
     background-color: rgb(182, 173, 173);
@@ -323,3 +333,59 @@ input[name='q']::placeholder {
         height: calc(100vh - 116px);
     }
 }
+
+.footer {
+	position: sticky;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #272525;
+	font-size: 14px;
+	padding: 0;
+	background-color: #faf9f7;
+	z-index: 999999999;
+}
+
+.footer p {
+	color: rgb(105, 105, 104);
+}
+
+.footer h3 {
+	color: white;
+	margin-bottom: 20px;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+	min-width: 250px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.footer-col-1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background: #faf9f7;
+	margin: 0;
+}
+
+.footer-col-2 {
+	flex: 1;
+	text-align: center;
+}
+
+.footer-col-2 img {
+	width: 180px;
+	margin-bottom: 20px;
+}
+
+.footer-col-3,
+.footer-col-4 {
+	flex-basis: 12%;
+	text-align: center;
+}
+
