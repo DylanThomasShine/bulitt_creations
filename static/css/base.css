@@ -24,7 +24,7 @@ body {
 }
 
 #bulitt {
-    text-shadow: 2px 2px #000
+    text-shadow: 0px 0px 5px #000
 }
 
 .main-logo-link {
@@ -46,6 +46,34 @@ body {
     background: white;
     color: black !important; /* use important to override link colors for <a> elements */
     border: 1px solid black;
+}
+
+#message {
+    text-shadow: 0px 0px 5px #000;
+}
+
+#message2 {
+    text-shadow: 0px 0px 5px #000;
+}
+
+#image-container {
+    object-fit: contain;
+    background-color: rgb(182, 173, 173);
+    border-style: groove;
+    border-width: thick;
+    border-color: gray;
+    padding: 5px;
+    float: left;
+}
+
+#image-container2 {
+    object-fit: contain;
+    background-color: rgb(182, 173, 173);
+    border-style: groove;
+    border-width: thick;
+    border-color: gray;
+    padding: 5px;
+    float: left;
 }
 
 .btn-outline-black:hover,
