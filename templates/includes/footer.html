@@ -1,45 +1,18 @@
-<div class="footer">
-   <div class="container">
-            <div class="footer-col-1 col-12">
-                <menu class="icons-first ">
-                
-                <li><a target="_blank" href="https://www.facebook.com/"><span class="fab fa-facebook-f"></span></a></li>
-                <li><a target="_blank" href="https://twitter.com/home"><span class="fab fa-twitter"></span></a></li>
-                <li><a target="_blank" href="https://www.instagram.com/dylan_thomas_shine/"><span class="fab fa-instagram"></span></a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/in/dylan-shine-39534966/"><span class="fab fa-linkedin-in"></span></a></li>
-                
-                </menu>    
-            </div>
+<footer class="footer">
+    <div class="social-networks">
+        <ul>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li><a href="https://twitter.com/"
+                    target="_blank"><i class="fab fa-twitter-square"> </i></a></li>
+            <li><a href="https://www.instagram.com/dylan_thomas_shine/" target="_blank"><i class="fab fa-instagram-square">
+                    </i></a></li>
+            <li><a href="https://www.linkedin.com/in/dylan-shine-39534966/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <div class="bulitt logo-font text-black my-0 text-shadow"><strong>© Bulitt</strong>Creations 2021</div>
+        
+        <br><br>
     </div>
-</div>
-<!-----js for toggle menu-->
 
-<script>
-    var MenuItems = document.getElementById("MenuItems");
-
-    // MenuItems.style.maxHeight = "0px";
-
-    function menutoggle() {
-        if (MenuItems.style.maxHeight == "0px") {
-            MenuItems.style.maxHeight = "200px";
-        } else {
-            MenuItems.style.maxHeight = "0px";
-        }
-    }
-
-
-$('.first li').click(function(){
-    $(this).toggleClass("shadow-1");
-    $(this).toggleClass("fill-color");
-});
-
- $('div.featured').click(function(){
-    $(this).toggleClass("shadow-2");
-    $(this).toggleClass("fill-color");
-});
-
-$('div a.offer-btn').click(function(){
-    $(this).toggleClass("shadow-3");
-
-});
-</script>
+</footer>

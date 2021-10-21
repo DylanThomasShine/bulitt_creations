@@ -1,108 +1,141 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 text-align="center">Bulitt Creations</h1>
 
-Welcome Dylan ,
+![Portfolio website](/media/bulittcreationslogoweb.jpg) 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+# Intro
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+<p align="center">This task is the final project for the 'Full Stack Frameworks with Django' module of the Code Institute Full Stack Software Development course. 
+This project is an eCommerce shop front to host my graphic design and artistic capabilities. The name chosen for the website is Bulitt Creations, which is the name I have used to create any art since I was 20 years old</p>
 
-A blue button should appear to click: _Make Public_,
+<p align="center">The site is worked within Django structure, sent live on Heroku, utilizes AWS S3 to have media and static records. Locally, it utilizes the inherent Django Db.sqlite3 information base, though when conveyed live it uses Heroku's Postgres information base. Authentication functionality is provided by Django's Allauth: administrator superuser can add and alter things in the Products and Categories applications, while visiting clients can enlist and login, accessing vestige depictions and their request history in the Checkout and Profile applications.</p>
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- [Goals](#goals)
+- [Target Audience](#target-audience)
+- [Business Goals](#business-goals)
+- [Customer goals](#customer-goals)
+- [User Stories](#user-stories)
+    + [Viewing and Navigation](#viewing-and-navigation)
+    + [Registration and User Accounts](#registration-and-user-accounts)
+    + [Sorting and searching](#sorting-and-searching)
+    + [Admin and Store Management](#admin-and-store-management)
+- [Design](#design)
+    + [Font](#font)
+    + [Color Scheme](#color-scheme)
+    + [Wireframes](#wireframes)
+- [Product Features](#product-features)
+- [Users Features](#users-features)
+- [User Stories Testing](#user-stories-testing)
+- [Error pages testing](#error-pages-testing)
+    - [404](#404)
+    - [500](#500)
+- [Requirements](#requirements)
+- [Local deployment](#local-deployment)
+- [Deployment on Heroku](#deployment-on-heroku)
+    
 
-A blue button should appear to click: _Make Public_,
+<p><h1 align="center">USER EXPERIENCE</h1></p>
 
-Another blue button should appear to click: _Open Browser_.
+# Goals
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<p>The main goal of Bulitt Creations is to showcase and sell my artwork.<br>
+   The user can request a design, creation, portrait from the designer.<br>
+   Also, through the website, a user may be inspired to create their own work from some of mine.</p>
 
-To log into the Heroku toolbelt CLI:
+# Target Audience
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- Users aged 8 to 80
+- Users interested in creativity and design.
+- Users with interest in collecting adn displaying works of art and creations.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+# Business Goals
 
-------
+- To create a platform that enables the prospective client to find and purchase the product they like.
+- Offer a portrait or a design feature to encourage the user to interact more with the designer.
+- In order to increase people's interest, encourage users to register.
+- Offer a presentable design of the website. 
+- Offer a simple and easy to use and navigate interface to attract the user to return for future visits.
 
-## Release History
+# Customer goals
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- Finding creations they would love to keep.
+- Buy a creation through an easy payment flow system.
+- Register their account to take requests for designs they may like me to produce.
+- See their previous purchases.
+- Connect their own social media account to one they have created here.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+# User Stories
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Viewing and Navigation		
+- As a shopper I want to be able to view the list of creations with the option to purchase them.
+- As a shopper I want to be able to view individual product details to identify the price and description.
+- As a shopper I want to be able to quickly identify special offers and new work/creations to take advantage of special savings on products I'd like to buy.
+- As a shopper I want to be able to easily view the total of my purchases at any time to see the history of my purchases and how much I spent.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Registration and User Accounts  
+- As a registered shopper I want to be able to easily register for an account so I can have a personal account, be able to see what I purchased.
+- As a registered shopper I want to be able to easily login or logout so I can access my personal account information.
+- As a registered shopper I want to be able to easily recover my password in case I forget it so I can recover access to my account.
+- As a registered shopper I want to be able to receive an email confirmation after registering so I can verify that my account registration was successful.
+- As a registered shopper I want to be able to have a personalised user profile so I can view my personal order history and order confirmations and save my payment information.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Sorting and searching  
+- As a shopper I want to be able to sort the list of available products so I can easily identify the best rated, best priced and categorically sorted creations  
+- As a shopper I want to be able to sort a specific category of products so I can find best priced or best rated product in a specific category or sort the product in that category by name
+- As a shopper I want to be able to sort multiple categories of products simultaneously so I can find the best priced or best rated products across board categories.
+- As a shopper I want to be able to search for a product by name or description so I can find a specific product I'd like to purchase.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Purchasing and Checkout  
+- As a registered shopper I want to be able to easily select quantity of a product when purchasing it so I can ensure I am selecting correct product and a correct quantity.
+- As a registered shopper I want to be able to view items in my bag to be purchased so I can identify the total cost of my purchase and all items I will receive.
+- As a registered shopper I want to be able to adjust the quantity of individual items in my bag so I can easily make changes to my purchase before checkout.
+- As a registered shopper I want to be able to easily enter my payment information so I can check out quickly and with no hassle.
+- As a registered shopper I want to be able to feel that my personal and payment information is safe and secure so I can confidently provide the needed informatoin to make a purchase.
+- As a registered shopper I want to be able to view an order confirmation after checkout so I can verify that I have not made any mistakes.
+- As a registered shopper I want to be able to receive an email confirmation after checking out so I can keep the records of my purchases.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Admin and Site Management  
+- As the site owner I want to be able to add a new creation as this would enable me to add new items to my site.
+- As the site owner I want to be able to Edit/Update product to apply any changes, be it in price, description, image or any other criteria.
+- As the site owner I want to be able to delete a product and remove a product if they are no longer available.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+# Design
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Font
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Throughout the project there is only one font used, which is Lato. The aim is to make this website as minimalist and clean as possible, I used shadows in CSS and HTML to make certain headings stand out more.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Color Scheme
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The main color used throughout the page is pale and light, almost white, as this ensures best effectivens of the design style. Black and gray is used to highlight Titles, headings and general top page information. Other grey and black colours used were to create the frame surrounding each picture. The remaining colours are used for hovers, warnings and small buttons such as edit or remove.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![Colur Chart](/media/colour_chart.jpg) 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Wireframes
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+|[Bulitt Creations Wireframes](/media/wireframes.pdf)|  
+<details><summary>All Products - Mobile and PC</summary>
+ 
+![](https://res.cloudinary.com/dugnokxox/image/upload/v1610107297/eCommerce_Web_Design-12_lxaltd.jpg)
+</details>
 
-------
+<details><summary>Product Detail - Mobile and PC</summary>
+ 
+![](https://res.cloudinary.com/dugnokxox/image/upload/v1610107297/eCommerce_Web_Design-13_x9sx3z.jpg)
+</details>
 
-## FAQ about the uptime script
+<details><summary>Register Account - Mobile and PC</summary>
+ 
+![](https://res.cloudinary.com/dugnokxox/image/upload/v1610107296/eCommerce_Web_Design-15_vyz1iw.jpg)
+</details>
 
-**Why have you added this script?**
+<details><summary>Sign In - Mobile and PC</summary>
+ 
+![](https://res.cloudinary.com/dugnokxox/image/upload/v1610107297/eCommerce_Web_Design-14_2_onyqe4.jpg)
+</details>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+<br><br>
 
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
