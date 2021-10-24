@@ -28,13 +28,10 @@
                     {% for field in form %}
                         {% if field.name != 'image' %}
                             {{ field | as_crispy_field }}
-                        {% if field.name == 'categories' %}
-                            {{ field | as_crispy_field }}
-                        {% endif %}
                         {% else %}
-                            {{ field }}
+                            {{ Message }}
                         {% endif %}
-                         {% endfor %}
+                    {% endfor %}}
                     <div class="text-right">
                         <a class="btn btn-outline-black rounded-0" href="{% url 'products' %}">Cancel</a>
                         <button class="btn btn-black rounded-0" type="submit">Request Creation</button>

@@ -71,10 +71,10 @@ def product_detail(request, product_id):
 
     return render(request, 'products/product_detail.html', context)
 
-
+# Add a Creation
 @login_required
 def add_product(request):
-    """ Add a product to the store """
+    """ Add a Creation to the store """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, thats the bosses job.')
         return redirect(reverse('home'))
@@ -97,10 +97,10 @@ def add_product(request):
 
     return render(request, template, context)
 
-
+# Request a Creation
 @login_required
 def request_product(request):
-    """ Add a product to the store """
+    """ Request a Creation from the store """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, thats the bosses job.')
         return redirect(reverse('home'))
@@ -123,10 +123,10 @@ def request_product(request):
 
     return render(request, template, context)
 
-
+# Edit a Creation
 @login_required
 def edit_product(request, product_id):
-    """ Edit a product in the store """
+    """ Edit a creation in the store """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, thats the bosses job.')
         return redirect(reverse('home'))
@@ -152,10 +152,10 @@ def edit_product(request, product_id):
 
     return render(request, template, context)
 
-
+# Delete a Creation
 @login_required
 def delete_product(request, product_id):
-    """ Delete a product from the store """
+    """ Delete a creation from the store """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, thats the bosses job.')
         return redirect(reverse('home'))

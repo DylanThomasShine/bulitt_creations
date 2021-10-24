@@ -98,6 +98,37 @@ body {
     float: left;
 }
 
+#image-container5 {
+    object-fit: contain;
+    background-color: rgb(182, 173, 173);
+    border-style: groove;
+    border-width: thick;
+    border-color: gray;
+    padding: 5px;
+    float: left;
+}
+
+#image-container6 {
+    object-fit: contain;
+    background-color: rgb(182, 173, 173);
+    border-style: groove;
+    border-width: thick;
+    border-color: gray;
+    padding: 5px;
+    float: left;
+}
+
+#image-container7 {
+    object-fit: contain;
+    background-color: rgb(182, 173, 173);
+    border-style: groove;
+    border-width: thick;
+    border-color: gray;
+    padding: 5px;
+    float: left;
+}
+
+/*------buttons----*/
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
