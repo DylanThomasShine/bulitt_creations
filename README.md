@@ -1,4 +1,4 @@
-<h1 text-align="center">Bulitt Creations</h1>
+<h1 text-align="center"><strong>Bulitt</strong> Creations</h1>
 
 ![Portfolio website](/media/bulittcreationslogoweb.jpg) 
 
@@ -104,21 +104,28 @@ This project is an eCommerce shop front to host my graphic design and artistic c
 
 # Design
 
-### Font
+## Font
 
 Throughout the project there is only one font used, which is Lato. The aim is to make this website as minimalist and clean as possible, I used shadows in CSS and HTML to make certain headings stand out more.
 
-### Color Scheme
+## Color Scheme
 
 The main color used throughout the page is pale and light, almost white, as this ensures best effectivens of the design style. Black and gray is used to highlight Titles, headings and general top page information. Other grey and black colours used were to create the frame surrounding each picture. The remaining colours are used for hovers, warnings and small buttons such as edit or remove.
 
 ![Colur Chart](/media/colour_chart.jpg) 
 
-### Wireframes
+## Wireframes
+<br>
 
-|[Bulitt Creations Wireframes](/media/bulittwireframes.pdf)|  
-
+<details><summary>Mobile Tablet and Desktop</summary>
+<br>
+ 
+[Bulitt Creations Wireframes](https://github.com/DylanThomasShine/bulitt_creations/blob/main/Bulitt%20Creations%20Wireframes.pdf)
+</details>
 <br><br>
+
+## Technologies
+<br>
 
 [![Gitpod](https://img.shields.io/badge/IDE-Gitpod-blue)](https://www.gitpod.io/)<br>
 [![CSS](https://img.shields.io/badge/Styling-CSS-blueviolet)](https://www.w3schools.com/css/)<br>
@@ -139,5 +146,90 @@ The main color used throughout the page is pale and light, almost white, as this
 [![W3C CSS Validator](https://img.shields.io/badge/CSS%20Validator-W3C%20CSS%20Validator-darkred)](https://jigsaw.w3.org/css-validator/)<br>
 [![W3C HTML Validator](https://img.shields.io/badge/HTML%20Validator-W3C%20HTML%20Validator-red)](https://validator.w3.org/)<br>
 
+<br><br>
 
+## Features
+
+- Products to purchase through an ecommerce system
+- Administration panel so superuser can add, edit and delete products
+- Profile page where registered user can see their order purchase history
+
+
+All pages share navigation bar with logo to the left, which once clicked on, takes you home from any page.
+
+In the middle there are four call to action buttons:
+<br>
+-  View Options- Option that returns a dropdown list with Items sorted in accordance to price, rating, alphabetically and All.
+- View Catagories -  Upon clicking on this option the user will be able to choose from Portraits, Paintings, Photography, Macro, 2000AD, Sketches, Caracatures and finally all Creatioins. 
+- View New Catagories - By clicking on this the user will be faced with three choices, Recently Added, Special Offers and All Creations.
+- Request Creation - this dropdown contains only position, which let's the User order a creation, from a Portrait of themselves to a sketch of a favourite, charatcter, hero etc..
+<br>
+
+To the right corner in the Main view there are two CTA buttons: My Account and a Shopping Bag.
+<br>
+- My Account:
+For the registered and while logged in user that is not a superuser, they will be able to Check out their Profile, which contains history of purchases. By clicking on this option, the logged in user will be able to log out from their session.
+For the regisered and logged in as a superuser, the user will be able to do all of the above plus Manage the main creations of the ecommerce. 
+- Shopping Bag.
+This option is available to both logged in and not logged in users. The difference is, only logged in user will be able to successfully check out with the items, as this option is for the time being only made available to the logged in user.
+<br>
+
+## Future Features
+
+- Request from a User to ask for a creation for themselves.
+- The ability to contact the superuser directly through a simple contact form.
+
+<br><br>
+
+# Testing
+<br>
+
+## Product Features
+<br>
+
+|  Feature |  Action | Effect |
+|---|---|---|
+| Logo (upper left corner)  |  Hover over |  <ul><li>The address on hover is showing as home page</li></ul> |
+| Search bar  |  Entered "Lord of the Rings", |<ul><li> one creation is listed under this name - correct</li><li>The summary shows message "1 Creation(s) found for "Lord of the Rings"</ul>|
+|  Explore Creations, bringing to all creations page|  Click on Explore Creations button |  <ul><li>Linked correctly</li></ul>  |
+| View Options  |  Click on By Price |  <ul><li>Items appear sorted ascending, from low price to high</li></ul> |
+|   |  Click on By Rating |  <ul><li>Items appear sorted descending, from high rating to low</li></ul> |
+|   |  Click on Alphabetically |  <ul><li>Categories of Items become sorted alphabetically</li></ul> |
+|   |  Click on All|  <ul><li>All items are displayed, sorted by SKU</li></ul> |
+| View Catagories  |  Click on Portraits |  <ul><li>Creations from that Category are displayed, the badge on top of the page also states what Category we are at.</li></ul> |
+|   |  Click on Paintings|  <ul><li>Creations from that Category are displayed, the badge on top of the page also states what Category we are at.</li></ul>|
+|   |  Click on Photography |  <ul><li>Creations from that Category are displayed, the badge on top of the page also states what Category we are at.</li></ul>|
+|   |  Click on Macros |  <ul><li>Creations from that Category are displayed, the badge on top of the page also states what Category we are at.</li></ul> |
+|   |  Click on 2000AD |  <ul><li>Creations from that Category are displayed, the badge on top of the page also states what Category we are at.</li></ul> |
+|   |  Click on Sketches |  <ul><li>Creations from that Category are displayed, the badge on top of the page also states what Category we are at.</li></ul> |
+|   |  Click on Caricatures |  <ul><li>Creations from that Category are displayed, the badge on top of the page also states what Category we are at.</li></ul> |
+|   |  Click on All Creations| <ul><li>All Creations are displaying</li></ul> |
+| View New Creations |  Click on Recently Added |  <ul><li>New creations are displayed, the badge on top of the page states same.</li></ul> |
+|   |  Click on Special Offers |  <ul><li>Special Offers are displayed, along with badge</li></ul> |
+|   |  Click on All Creations |  <ul><li>bringing to all creations page, heading shows "CREATIONS""</li></ul> |
+| Request Creation |  Click on Request Creation |  <ul><li>Request a Creation form is displayed along with "REQUEST MANAGEMENT" heading</li></ul> | 
+|   
+| My Account  |  Click on Register |  <ul><li>Sign up form appears</li><li>Form sends</li><li>Confirmation email appears in the email box</li><li>Clicked on the confirmation email - Confirm email address page appears</li><li>Logged in with newly created account - the success message appears and I am now logged in</li><li>Upon clicking Confirm, a success message appears and a signing page is returned</li></ul> |
+|   |  <h3>Click on Login</h3> |  <ul><li>The address on hover is showing as home page</li></ul> |
+| Bag  |  Bag empty |  <ul><li>Click on Continue Browsing button, brings me back to all Creations page</li></ul> |
+|   |  <h3>Bag with Content</h3>  | <ul><li>Increase and Decrease quantity buttons work</li><li>Price updates when Update option is clicked</li><li>Price in Grand total Updates over the 10% Delivery</li><li>Free Delivery threshold is calculated correctly and called back to user</li></ul> |
+| Footer  |  Test all of the Social Media/Contact links  |  <ul><li>All open in a separate tabs and bring the user to the said website</li></ul> |
+| | <h3>Home Page</h3> | |
+| Explore Creations button  |  Clicked on |  <ul><li>Brings me to a page with all creations</li></ul> |
+| | <h3>All Creations Page</h3>  | |
+| View Options Dropdown  |  Sort testing each Condition |  <ul><li>Price (low to high) - sorts according to price, from cheapest to dearest</li><li> Price (high to low) - sorts according to price, from dearest to cheapest</li><li>Rating (low to high) - sorts rating from lowest</li><li>Rating (high to low) - sorts rating from highest.</li><li>Name (A-Z) - sorts Products alphabetically</li><li>Name (Z-A) - sorts products reverse-alphabetically</li><li>Category (A-Z) - sorts Categories of products alphabetically</li><li>Category (Z-A) - sorts Products by Categories sorted reverse-alphabetically</li></ul> |
+| Superuser - editing the creation details  |  Click on the Edit option underneath one of the creations |  <ul><li>A Manage Creations Edit a Creation form is rendered and a warning message is triggered in upper right corner</li><li>Changed Category and Name,saved</li><li>Name and Category successfully changed, confirmed with a success toast rendered in upper right corner </li></ul> |
+|   |  Click on the Delete option |  <ul><li>Product is immediately deleted and a success toast confirming deletion is rendered in the upper right corner of the page </li></ul>|
+| Adding a Creation to the bag  |  Click on the Creation and click Add to Bag |  <ul><li>Bag total updates to the correct amount, success toast confirms the Creation was added to the bag </li></ul> |
+| Navigating from Creation Detail back to All Creations |  Click on the Continue Browsing button |  <ul><li>A page with all the Creations is rendered</li></ul> |
+| Checking out  |  Click on the Shopping Bag, click on Secure Checkout |  <ul><li>Non registered user - a sign in page renders with option to register, if user is not yet registered</li><li>Registered User - A Checkout page is rendered with most information saved as per users account. User can also see the Order Summary to the right of the form</li><li>Entered card details and name, after which clicked on the Complete Transaction button</li><li>A thank you page is rendered, with a summary of order as well as the success toast renders in upper right corner</li><li>Confirmation email arrives to the email box</li></ul> |
+
+### For testing the Stripe checkout use the following:
+
+```bash
+ Card number: 4242 4242 4242 4242
+ CVC_: any 3 digits
+ Card expiry date: any future date
+ ZIP/Postcode: any 5 digits
+``` 
 
