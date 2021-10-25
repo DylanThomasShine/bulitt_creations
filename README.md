@@ -1,4 +1,4 @@
-<h1 text-align="center"><strong>Bulitt</strong> Creations</h1>
+<p><h1 text-align="center"><strong>BULITT</strong> CREATIONS</h1></p>
 
 ![Portfolio website](/media/bulittcreationslogoweb.jpg) 
 
@@ -37,7 +37,7 @@ This project is an eCommerce shop front to host my graphic design and artistic c
 - [Deployment on Heroku](#deployment-on-heroku)
     
 
-<p><h1 align="center">USER EXPERIENCE</h1></p>
+<p><h1 align="center"><strong>USER</strong> EXPERIENCE</h1></p>
 
 # Goals
 
@@ -67,7 +67,7 @@ This project is an eCommerce shop front to host my graphic design and artistic c
 - See their previous purchases.
 - Connect their own social media account to one they have created here.
 
-# User Stories
+<p><h1 align="center"><strong>USER</strong> STORIES</h1></p>
 
 ### Viewing and Navigation		
 - As a shopper I want to be able to view the list of creations with the option to purchase them.
@@ -102,7 +102,7 @@ This project is an eCommerce shop front to host my graphic design and artistic c
 - As the site owner I want to be able to Edit/Update product to apply any changes, be it in price, description, image or any other criteria.
 - As the site owner I want to be able to delete a product and remove a product if they are no longer available.
 
-# Design
+<p><h1 align="center">DESIGN</h1></p>
 
 ## Font
 
@@ -117,10 +117,10 @@ The main color used throughout the page is pale and light, almost white, as this
 ## Wireframes
 <br>
 
-<details><summary>Mobile Tablet and Desktop</summary>
+<details><summary><strong>Mobile Tablet and Desktop</strong></summary>
 <br>
  
-[Bulitt Creations Wireframes](https://github.com/DylanThomasShine/bulitt_creations/blob/main/Bulitt%20Creations%20Wireframes.pdf)
+## [Bulitt Creations Wireframes](https://github.com/DylanThomasShine/bulitt_creations/blob/main/Bulitt%20Creations%20Wireframes.pdf)
 </details>
 <br><br>
 
@@ -181,13 +181,14 @@ This option is available to both logged in and not logged in users. The differen
 
 <br><br>
 
-# Testing
-<br>
+<p><h1 align="center">TESTING</h1></p>
+
+![Testing Images](/media/testimages.jpg) 
 
 ## Product Features
 <br>
 
-|  Feature |  Action | Effect |
+|  <h2>Feature</h2> |  <h2>Action</h2> | <h2>&nbsp; &nbsp;&nbsp; Effect</h2> |
 |---|---|---|
 | Logo (upper left corner)  |  Hover over |  <ul><li>The address on hover is showing as home page</li></ul> |
 | Search bar  |  Entered "Lord of the Rings", |<ul><li> one creation is listed under this name - correct</li><li>The summary shows message "1 Creation(s) found for "Lord of the Rings"</ul>|
@@ -210,9 +211,9 @@ This option is available to both logged in and not logged in users. The differen
 | Request Creation |  Click on Request Creation |  <ul><li>Request a Creation form is displayed along with "REQUEST MANAGEMENT" heading</li></ul> | 
 |   
 | My Account  |  Click on Register |  <ul><li>Sign up form appears</li><li>Form sends</li><li>Confirmation email appears in the email box</li><li>Clicked on the confirmation email - Confirm email address page appears</li><li>Logged in with newly created account - the success message appears and I am now logged in</li><li>Upon clicking Confirm, a success message appears and a signing page is returned</li></ul> |
-|   |  <h3>Click on Login</h3> |  <ul><li>The address on hover is showing as home page</li></ul> |
+|   |  Click on Login |  <ul><li>The address on hover is showing as home page</li></ul> |
 | Bag  |  Bag empty |  <ul><li>Click on Continue Browsing button, brings me back to all Creations page</li></ul> |
-|   |  <h3>Bag with Content</h3>  | <ul><li>Increase and Decrease quantity buttons work</li><li>Price updates when Update option is clicked</li><li>Price in Grand total Updates over the 10% Delivery</li><li>Free Delivery threshold is calculated correctly and called back to user</li></ul> |
+|   |  Bag with Content | <ul><li>Increase and Decrease quantity buttons work</li><li>Price updates when Update option is clicked</li><li>Price in Grand total Updates over the 10% Delivery</li><li>Free Delivery threshold is calculated correctly and called back to user</li></ul> |
 | Footer  |  Test all of the Social Media/Contact links  |  <ul><li>All open in a separate tabs and bring the user to the said website</li></ul> |
 | | <h3>Home Page</h3> | |
 | Explore Creations button  |  Clicked on |  <ul><li>Brings me to a page with all creations</li></ul> |
@@ -233,3 +234,52 @@ This option is available to both logged in and not logged in users. The differen
  ZIP/Postcode: any 5 digits
 ``` 
 
+
+
+![Checkout Success Images](/media/checkoutimage.jpg)
+
+<br>
+
+# Users Features
+
+|  <h2>Feature</h2> |  <h2>Action</h2> | <h2>&nbsp; &nbsp;&nbsp; Effect</h2> |
+|---|---|---|
+| Registration  | Click on My Account and My Profile  |  <ul><li>Click on MyAccount and Register</li><li>A Sign Up form is rendered, fill in the blanks</li><li>User Exists - an error is rendered above the user name "User is already registered with this email address"</li><li>Register unregistered email address, press send</li><li>A confirmation email is sent to the provided email address</li></ul> |
+| Login  |  Click on My Account and My Profile | <ul><li>Click on MyAccount and Login</li><li>A Sign In form renders</li><li>Wrong Password entered, an error is generated "The username and/or password you specified are not correct"</li><li>Log in with the correct password</li><li>Home page is rendered</li></ul>  |
+| Logout  | Click on My Account and My Profile  | <ul><li>Click on MyAccount and Logout</li><li>A page renders confirming "Are you sure you want to sign out"</li><li>Click Sign Out</li><li>A success toast is rendered in upper right corner of the screen</li></ul>  |
+| Change Password  |  Click on My Account and My Profile |  <ul><li>Click on MyAccount and Login</li><li>Click Forgot Password</li><li>Enter email you are registered under</li><li>A page renders confirmation "We have sent you an email. Please contact us if you do not receive it within a few minutes"</li><li>When clicked, it returns a change password form</li></ul> |
+| View profile  |  Click on My Account and My Profile | <ul><li>Log in and click on MyAccount and My Profile</li><li>My Profile page is rendered with Default Delivery Informaton and history of purchasees</li></ul> |
+| Update profile  |  Click on My Account and My Profile |  <ul><li>While in My Profile, fill in the new details and click Update Information</li><li>A success toast is rendered in upper right corner of the screen</li><li>Information is updated</li></ul> |
+
+<p><h1 align="center"><strong>USER</strong> STORIES TESTING</h1></p>
+
+![User Story image](/media/storyimage.jpg)
+
+ | <h2>User Story</h2>                                                                                                                                                                                  | <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Testing<h2>                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| As a shopper I want to be able to view the list of products to purchase some                                                                                                                 | <ul><li>The list of products is available as per below</li><li>Home page - click on Explore Creations buttonEverything - choose the desired filtering or choose 'Everything'</li></ul>                                                                                                                                                                                                                                                               |
+| As a shopper I want to be able to view individual product details to identify the price and description                                                                                      | <ul><li>While at All Products click on a sample Product</li><li>The Price and Description is clearly visible</li></ul>                                                                                                                                                                                                                                                                                                                      |
+| As a shopper I want to be able to quickly identify special offers to take advantage of special savings on products I'd like to buy                                                           | <ul><li>One of the CTA buttons on navbar is marked as Special Offers and is visible from every page of the website</li></ul>                                                                                                                                                                                                                                                                                                                |
+| As a shopper I want to be able to easily view the total of my purchases at any time to see the history of my purchases and how much I spent                                                  | <ul><li>This feature can be accessed on My Account -> My Profile</li><li>History of orders is visible next to the profile details</li></ul>                                                                                                                                                                                                                                                                                                 |
+| As a registered shopper I want to be able to easily register for an account so I can have a personal account, be able to see what I purchased                                                | <ul><li>As soon as the unregistered user is ready to check out and complete a purchase, the site renders a Sign Up call to action page</li><li>By clicking on My Account and Register, the unregistered user may easily register and from then on use account to keep record of their purchases</li></ul>                                                                                                                                   |
+| As a registered shopper I want to be able to easily login so I can access my personal account information                                                                                    | <ul><li>By clicking on My Account, user's acount is easily accessible and editable</li></ul>                                                                                                                                                                                                                                                                                                                                                |
+| As a registered shopper I want to be able to easily recover my password in case I forget it so I can recover access to my account                                                            | <ul><li>Upon login attempt there is a 'Forgot Password' option</li><li>From there on, the user may request a password resetting email</li><li>Upon receipt of the email, user will be able to click on the link and easily amend or set a new password</li></ul>                                                                                                                                                                            |
+| As a registered shopper I want to be able to receive an email confirmation after registering so I can verify that my account registration was successful                                     | <ul><li>Shortly after registration, a confirmation email arrives to the inbox of the email provided</li></ul>                                                                                                                                                                                                                                                                                                                               |
+| As a registered shopper I want to be able to have a personalised user profile so I can view my personal order history and order confirmations and save my payment information                | <ul><li>The profile can be accessed through My Account button in upper right corner of the page</li></ul>                                                                                                                                                                                                                                                                                                                                   |
+| As a registered shopper I want to be able to add my own personalised design                                                                                                                  | <ul><li>Upload of the Design via Design Management accessible through My Account option</li></ul> |
+| As a registered shopper I want to be able to place an order for my personalised design so I can have my design made into pin, keyring or a piece of stationery                               | <ul><li>This feature is available from Special Offers option on the navbar by clicking on Order Your Own</li><li>Feature will be improved by building a dedicated display of the designs uploaded, with button to order directly from there</li><li>This is a future feature</li></ul>                                                                                                                                                                                    |
+| As a registered shopper I want to be able to easily contact the store owner with any queries I might have so I can ask any questions I may have                                              | <ul><li>The Contact Us button is available in a footer and accessible from every part of the website.</li><li>The Contact Us form opens in a separate tab and once message is sent, a confirmation template renders to inform user that someone will be in touch</li></ul>                                                                                                                                                                  |
+| As a shopper I want to be able to sort the list of available products so I can easily identify the best rated, best priced and categorically sorted products                                 | <ul><li>This option is available by accessing 'Everything' option within the navbar</li></ul>                                                                                                                                                                                                                                                                                                                                               |
+| As a shopper I want to be able to sort a specific category of products so I can find best priced or best rated product in a specific category or sort the product in that category by name   | <ul><li>The sorting option is available on every page in a format of a dropdown.</li></ul>                                                                                                                                                                                                                                                                                                                                                  |
+| As a shopper I want to be able to sort multiple categories of products simultaneously so I can find the best priced or best rated products across board categories, such as pins or keyrings | <ul><li>By clicking on Everything or All Pins, user may choose from either all products or all pins. </li><li>Additionally there are badges displayed on top of the All Pins page, to inform what categories are being displayed</li></ul>                                                                                                                                                                                                  |
+| As a shopper I want to be able to search for a product by name or description so I can find a specific product I'd like to purchase                                                          | <ul><li>The option of a Search bar is available at all times, it returns key words by the product name or from within a products description</li></ul>                                                                                                                                                                                                                                                                                      |
+| As a registered shopper I want to be able to easily select quantity of a product when purchasing it so I can ensure I am selecting correct product and a correct quantity                    | <ul><li>While adding product to the basket, user chooses the quantity of the product chosen</li><li>While in the basket, and preparing for check out, user can edit the quantity or delete the product entirely by clicking remove</li></ul>                                                                                                                                                                                                |
+| As a registered shopper I want to be able to view items in my bag to be purchased so I can identify the total cost of my purchase and all items I will receive                               | <ul><li>The current total is constantly displayed in upper right corner, under basket.</li></ul>                                                                                                                                                                                                                                                                                                                                            |
+| As a registered shopper I want to be able to adjust the quantity of individual items in my bag so I can easily make changes to my purchase before checkout                                   | <ul><li>The quantity can be amended when user is in the basket, preparing for check out</li></ul>                                                                                                                                                                                                                                                                                                                                           |
+| As a registered shopper I want to be able to easily enter my payment information so I can check out quickly and with no hassle                                                               | <ul><li>The payment details are entered after clicking Check out</li></ul>                                                                                                                                                                                                                                                                                                                                                                  |
+| As a registered shopper I want to be able to feel that my personal and payment information is safe and secure so I can confidently provide the needed informatoin to make a purchase         | <ul><li>The Check out is only possible if the user is logged in. This way user's details, if they choose to save them, are securely stored</li></ul>                                                                                                                                                                                                                                                                                        |
+| As a registered shopper I want to be able to view an order confirmation after checkout so I can verify that I have not made any mistakes                                                     | <ul><li>The order confirmation is displayed as well as emailed to the email address provided</li></ul>                                                                                                                                                                                                                                                                                                                                      |
+| As a registered shopper I want to be able to receive an email confirmation after checking out so I can keep the records of my purchases                                                      | <ul><li>Email confirmation is sent instantanously after the product(s) is/are purchased</li></ul>                                                                                                                                                                                                                                                                                                                                           |
+| As a store owner I want to be able to add a product as this would enable me to add new items to my store                                                                                     | <ul><li>This option is available to the superuser and while logged in</li><li>Choose My Account and Product Management</li><li>This will render a Product upload form</li></ul>                                                                                                                                                                                                                                                             |
+| As a store owner I want to be able to Edit/Update product to apply any changes, be it in price, description, image or other product criteria                                                 | <ul><li>While logged in as a superuser, go to the product in question and click edit button on all products view or on a product detail page</li><li>From then on enter any details you want to change, including images</li><li>Upon submitting, a success toast appears</li></ul>                                                                                                                                                         |
+| As a store owner I want to be able to delete a product remove product if they are no longer for sale                                                                                         | <ul><li>Whle logged in as a superuser, click on Delete option by product that needs to be deleted</li><li>A success toast appears and the product is gone from the system</li></ul>                                                                                                                                                                                                                                                         |
