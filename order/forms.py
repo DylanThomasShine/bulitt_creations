@@ -6,7 +6,7 @@ from .widgets import CustomClearableFileInput
 class OrderForm(forms.ModelForm):
     name = forms.CharField(label="", widget=forms.TextInput(attrs={'placeholder': 'Full name'}))
     image_url = forms.CharField(label="", widget=forms.TextInput(attrs={'placeholder': 'Email'}))
-    description = forms.CharField(label="", widget=forms.Textarea(attrs={'placeholder': 'Description'}))
+    description = forms.CharField(label="", widget=forms.Textarea(attrs={'placeholder': 'Please tell us what you would like us to create for you, then simply upload an image for a reference. '}))
     
 
 # added 'form-control' for responsiveness
