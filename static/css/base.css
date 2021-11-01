@@ -128,6 +128,16 @@ body {
     float: left;
 }
 
+#image-container8 {
+    object-fit: contain;
+    background-color: rgb(182, 173, 173);
+    border-style: groove;
+    border-width: thick;
+    border-color: gray;
+    padding: 5px;
+    float: left;
+}
+
 /*------buttons----*/
 .btn-outline-black:hover,
 .btn-outline-black:active,
@@ -354,6 +364,7 @@ input[name='q']::placeholder {
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
+        display: inline;
         position: fixed;
         top: 0;
         right: 0;
@@ -377,10 +388,11 @@ input[name='q']::placeholder {
     }
 }
 
+
 /* ---------footer----------*/
 
-footer {
-    position: absolute;
+.footer {
+    position: flex;
     background-color: #f7f6f3;
     width: 100%;
     height: 200px; 
@@ -410,4 +422,10 @@ footer {
 .bulitt{
     padding-left: 3%; 
     
+}
+
+@media (max-width: 360px) {
+	.searchbar {
+		display: none;
+	}
 }
