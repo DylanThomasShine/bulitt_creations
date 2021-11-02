@@ -179,7 +179,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 if 'USE_AWS' in os.environ:
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'bulitt-creations' 
-    AWS_S3_REGION_NAME = 'EU (Ireland) eu-west-1'
+    AWS_S3_REGION_NAME = 'eu-west-1'
     AWS_ACCESS_KEY_ID = os.environ.get('AKIA4OJ4JSJ66QHIVZXH')
     AWS_SECRET_ACCESS_KEY = os.environ.get('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')
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
