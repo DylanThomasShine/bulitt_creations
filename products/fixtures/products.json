@@ -1,562 +1,527 @@
 [
     {
-"pk": 1,
-
         "model": "products.product",
-
-        "fields": {
-
-            "sku": "pp5001340155",
-
-            "name": "Dr. Strange",
-
-            "description": "Portrait of Benedict Cumberbatch as the Marvel wizard that is Dr. Strange. Created on an iPad with the Apple Pencil using Procreate. 8 hours of effort!! ",
-
-            "has_sizes": true,
-
-            "price": 60.00,
-
-            "category": 1,
-
-            "rating": 4.6,
-
-
-
-            "image": "dr_strange.png"
-
-        }
-
-    },
-
-    {
-
-        "pk": 2,
-
-        "model": "products.product",
-
-        "fields": {
-
-            "sku": "pp5001600425",
-
-            "name": "Scarlett Witch",
-
-            "description": "Elizabeth Olsen plays Scarlett Witch, one of the most powerful of the Avengers. A portrait drawn here on the iPad using the Apple Pencil",
-
-            "has_sizes": true,
-
-            "price": 60.00,
-
-            "category": 1,
-
-            "rating": 4.6,
-
-            "image": "scarlett_witch.png"
-
-        }
-
-    },
-
-    {
-
-        "pk": 3,
-
-        "model": "products.product",
-
-        "fields": {
-
-            "sku": "pp5001730010",
-
-            "name": "Wonder Woman",
-
-            "description": "Gal Gadot as the incomperable Amazonian Warrior Wonder Woman of the DC Universe",
-
-            "has_sizes": false,
-
-            "price": 60.00,
-
-            "category": 1,
-
-            "rating": 4.7,
-
-            "image": "wonder_woman.png"
-
-        }
-
-    },
-
-    {
-
-        "pk": 4,
-
-        "model": "products.product",
-
-        "fields": {
-
-            "sku": "pp5001890157",
-
-            "name": "Yoga",
-
-            "description": "The one and only Yoda, the immensely powerful Jedi Master of the Star Wars Universe",
-
-            "has_sizes": false,
-
-            "price": 40.00,
-
-            "category": 2,
-
-            "rating": 3.0,
-
-            "image": "yoda.png"
-
-        }
-
-    },
-
-    {
-
-        "pk": 5,
-
-        "model": "products.product",
-
-        "fields": {
-
-            "sku": "pp5002111605",
-
-            "name": "The Fear Within",
-
-            "description": "A ghostly apparition appeared at the foot of my bed in a dream, 4 hours later and a ball point pen and this was the result",
-
-            "has_sizes": true,
-
-            "price": 45.00,
-
-            "category": 2,
-
-            "rating": 5.0,
-
-            "image": "fear_within.png"
-
-        }
-
-    },
-
-    {
-
-        "pk": 6,
-
-        "model": "products.product",
-
-        "fields": {
-
-            "sku": "pp5002260206",
-
-            "name": "Venom",
-
-            "description": "The Symbiant villain that is Venom, Spiderman’s far out villain/hero of the Marvel Universe",
-
-            "has_sizes": true,
-
-            "price": 25.00,
-
-            "category": 2,
-
-            "rating": 4.7,
-
-            "image": "venom.png"
-
-        }
-
-    },
-
-    {
-
-        "pk": 7,
-
-        "model": "products.product",
-
-        "fields": {
-
-            "sku": "pp5002440521",
-
-            "name": "New York City",
-
-            "description": "A shot taken from atop the Empire State building looking downtown Manhattan",
-
-            "has_sizes": true,
-
-            "price": 30.00,
-
-            "category": 3,
-
-            "rating": 4.4,
-
-            "image": "new_york_arial.png"
-
-        }
-
-    },
-
-    {
-
-        "pk": 8,
-
-        "model": "products.product",
-
-        "fields": {
-
-            "sku": "pp5002601115",
-
-            "name": "Petri Pumpkin",
-
-            "description": "A pumpkin carved carefully and lit perfectly for the shot",
-
-            "has_sizes": false,
-
-            "price": 30.00,
-
-            "category": 3,
-
-            "rating": 4.5,
-
-            "image": "petri_pumpkin.png"
-
-        }
-
-    },
-
-    {
-
-        "pk": 9,
-
-        "model": "products.product",
-
-        "fields": {
-
-            "sku": "pp5002690715",
-
-            "name": "Twin Towers",
-
-            "description": "This photo was taken on the eve of the unforgettable in New York when the Twin Towers came down. I was downtown that day and took this photo before I climbed to the top to enjoy the view." ,
-
-            "has_sizes": false,
-
-            "price": 165.00,
-
-            "category": 3,
-
-            "rating": 4.7,
-
-            "image": "twin_towers.png"
-
-        }
-
-    },
-
-    {
-
-        "pk": 10,
-
-        "model": "products.product",
-
-        "fields": {
-
-            "sku": "pp5002701115",
-
-            "name": "Bad Company",
-
-            "description": "The brutal Krool Heart, leader of the Krools in the 2000AD creation Bad Company…..a truly menacing character",
-
-            "has_sizes": false,
-
-            "price": 30.00,
-
-            "category": 4,
-
-            "rating": 4.4,
-
-            "image": "bad_company.png"
-
-        }
-
-    },
-
-    {
-
-        "pk": 11,
-
-        "model": "products.product",
-
-        "fields": {
-
-            "sku": "pp5002761055",
-
-            "name": "Halo Jones",
-
-            "description": "The eponymous heroine is a highly sympathetic 50th-century everywoman, wonderfully created by Alan Moore and Ian Gibson of 2000AD comics",
-
-            "has_sizes": true,
-
-            "price": 30.00,
-
-            "category": 4,
-
-            "rating": 3.0,
-
-            "image": "halo_jones.png"
-
-        }
-
-    },
-
-    {
-
-        "pk": 12,
-
-        "model": "products.product",
-
-        "fields": {
-
-            "sku": "pp5002820069",
-
-            "name": "Slaine",
-
-            "description": "Sláine is a wanderer who is banished from his tribe, the Sessair. He explores the Land of the Young (Irish: Tír na Nóg) with an unscrupulous dwarf called Ukko, fighting monsters and mercenaries.",
-
-            "has_sizes": true,
-
-            "price": 30.00,
-
-            "category": 4,
-
-            "rating": 4.6,
-
-            "image": "saline.png"
-
-        }
-
-    },
-
-    {
-
         "pk": 13,
-
-        "model": "products.product",
-
         "fields": {
-
-            "sku": "pp5002820147",
-
-            "name": "ET with Steven Spielberg",
-
-            "description": "Steven holding ET up for a game of the classic 80’s Pac-Man. ET dominated the movies in 1983/84 and still to this day has millions of views every year around Haloween",
-
-            "has_sizes": true,
-
-            "price": 20.0,
-
-            "category": 5,
-
-            "rating": 3.2,
-
-            "image": "et_playtime"
-
+        "category": 6,
+        "sku": "JUN-10X-12X",
+        "name": "Jungle Dusk",
+        "description": "Evening in the jungle as the sun plays havoc with the colours of the sky and clouds. Painted on the iPad using Apple Pencil and the app Procreate",
+        "has_sizes": true,
+        "price": "65.00",
+        "rating": "4.50",
+        "image_url": null,
+        "image": "Desert_l9Cu50u.png"
         }
-
-    },
-
-    {
-
+        },
+        {
+        "model": "products.product",
         "pk": 14,
-
-        "model": "products.product",
-
         "fields": {
-
-            "sku": "pp5002910572",
-
-            "name": "Laurel & Hardy",
-
-            "description": "Laurel and Hardy were a comedy duo act during the early Classical Hollywood era of American cinema, consisting of Englishman Stan Laurel(1890–1965) and American Oliver Hardy (1892–1957).",
-
-            "has_sizes": true,
-
-            "price": 20.00,
-
-            "category": 5,
-
-            "rating": 4.7,
-
-            "image": "laurel_hardy.png"
-
+        "category": 6,
+        "sku": "COL-10X-12X",
+        "name": "Cold Lakeside",
+        "description": "The beautiful cold crispy morning being captured on the iPad with the app Procreate. The ice capped Rocky Mountains with a beautiful lake catching it's reflection through the trees.",
+        "has_sizes": true,
+        "price": "65.00",
+        "rating": "4.70",
+        "image_url": null,
+        "image": "Lakeside.png"
         }
-
-    },
-
-    {
-
+        },
+        {
+        "model": "products.product",
         "pk": 15,
-
-        "model": "products.product",
-
         "fields": {
-
-            "sku": "pp5002990740",
-
-            "name": "Obelix",
-
-            "description": "Obelix  is a cartoon character in the French comic book series Asterix He works as a menhir sculptor and deliveryman, and is Asterix’s best friend.",
-
-            "has_sizes": true,
-
-            "price": 20.00,
-
-            "category": 5,
-
-            "rating": 4.8,
-
-            "image": "asterix.png"
-
+        "category": 1,
+        "sku": "DR.-10X-12X",
+        "name": "Dr. Strange",
+        "description": "Dr. Stephen Strange, a wealthy, acclaimed, and arrogant neurosurgeon, is a 2016 American superhero film based on the Marvel Comics character of the same name. Benedict Cumberbatch portrays the enigmatic doctor in all his glory. Created on the iPad with the Apple Pencil.",
+        "has_sizes": true,
+        "price": "95.00",
+        "rating": "4.80",
+        "image_url": null,
+        "image": "dr_strange.png"
         }
-
-    },
-
-    {
-
+        },
+        {
+        "model": "products.product",
         "pk": 16,
-
-        "model": "products.product",
-
         "fields": {
-
-            "sku": "pp5003050248",
-
-            "name": "Jungle Dusk",
-
-            "description": "Evening in the jungle as the sun plays havoc with the colours of the sky and clouds. Painted on the iPad using Apple Pencil and the app Procreate.",
-
-            "has_sizes": true,
-
-            "price": 65.99,
-
-            "category": 6,
-
-            "rating": 4.4,
-
-            "image": "jungle_dusk.png"
-
+        "category": 1,
+        "sku": "WON-10X-12X",
+        "name": "Wonder Woman",
+        "description": "Princess Diana of Themyscira (amazon identity), Diana Prince (civilian identity), Wonder Woman to(hero identity). Portrayed her by the beautiful Gal Gadot (Isreal). Created on the iPad with the Apple Pencil.",
+        "has_sizes": true,
+        "price": "95.00",
+        "rating": "4.90",
+        "image_url": null,
+        "image": "Wonder_Woman.png"
         }
-
-    },
-
-    {
-
+        },
+        {
+        "model": "products.product",
         "pk": 17,
-
-        "model": "products.product",
-
         "fields": {
-
-            "sku": "pp5003070787",
-
-            "name": "Winter Lakeside",
-
-            "description": "The beautiful cold crispy morning being captured on the iPad with the app Procreate",
-
-            "has_sizes": true,
-
-            "price": 33.99,
-
-            "category": 6,
-
-            "rating": 4.4,
-
-            "image": "cold_lakeside.png"
-
+        "category": 1,
+        "sku": "SCA-10X-12X",
+        "name": "Scarlet Witch",
+        "description": "The Scarlet Witch is a fictional character appearing in American comic books published by Marvel Comics. The character was created by writer Stan Lee and artist Jack Kirby. Otherwise known as Wanda Maximoff, a Romani Transian Sorceress and the younger twin sister of the speedster Quicksilver(who will make an apperance here soon).",
+        "has_sizes": true,
+        "price": "95.00",
+        "rating": "4.90",
+        "image_url": null,
+        "image": "Scarlett_Witch.png"
         }
-
-    },
-
-    {
-
+        },
+        {
+        "model": "products.product",
         "pk": 18,
-
-        "model": "products.product",
-
         "fields": {
-
-            "sku": "pp5003090182",
-
-            "name": "Bee Supper Time",
-
-            "description": "Captured with a 300mm Zoom lens on a macro setting using a Canon DS1200",
-
-            "has_sizes": false,
-
-            "price": 55.00,
-
-            "category": 7,
-
-            "rating": 4.8,
-
-            "image": "bee_close.png"
-
+        "category": 2,
+        "sku": "BAT-10X-12X",
+        "name": "Batman",
+        "description": "One of the most iconic characters in popular culture, Batman has been listed among the greatest comic book superheroes and fictional characters ever created. He is one of the most commercially successful superheroes, and his likeness has been licensed and featured in various media and merchandise sold around the world. Joker is his biggest arch enemy who will feature here in future sketches.",
+        "has_sizes": true,
+        "price": "35.00",
+        "rating": "4.30",
+        "image_url": null,
+        "image": "Batman.png"
         }
-
-    },
-
-    {
-
+        },
+        {
+        "model": "products.product",
         "pk": 19,
-
-        "model": "products.product",
-
         "fields": {
-
-            "sku": "pp5003090186",
-
-            "name": "Full Moon Fever",
-
-            "description": "Shot in the Southern Hemisphere in Perth Australia. Camera mounted on a tripod with a remote to keep perfect steadiness",
-
-            "has_sizes": false,
-
-            "price": 55.00,
-
-            "category": 7,
-
-            "rating": 5.0,
-
-            "image": "full_moon.png"
-
+        "category": 2,
+        "sku": "FIE-10X-12X",
+        "name": "Fiery Personality",
+        "description": "A dream, a nightmare....call it what you will but this very fire creature appeared in my thoughts and so took to paper and black rotring 5.0 pen and this is what happened.",
+        "has_sizes": true,
+        "price": "35.00",
+        "rating": "4.20",
+        "image_url": null,
+        "image": "Fiery_Personality.png"
         }
-
-    },
-
-    {
-
+        },
+        {
+        "model": "products.product",
         "pk": 20,
-
-        "model": "products.product",
-
         "fields": {
-
-            "sku": "pp5003161326",
-
-            "name": "Spider Mam",
-
-            "description": "a spider Mammy looking after her brood. Captured again on the macro setting mounted to a tripod for steadier action shots",
-
-            "has_sizes": false,
-
-            "price": 55.00,
-
-            "category": 7,
-
-            "rating": 4.7,
-
-            "image": "spider_mam.png"
-
+        "category": 2,
+        "sku": "FEA-10X-12X",
+        "name": "The Fear Within",
+        "description": "I woke one night to see this at the end of my bed at 4am......Jumped up grabbed a page(had to add more pages to that one) took a black ball point pen and drew for 4.5 straight hours. I could hear the horse's breathe and the cackle of the hideous horseman with I Slaughter phone 666 after midnight written on his sword......The Fear Within.",
+        "has_sizes": true,
+        "price": "55.00",
+        "rating": "4.60",
+        "image_url": null,
+        "image": "The_Fear_Within.png"
         }
-
-    }
+        },
+        {
+        "model": "products.product",
+        "pk": 21,
+        "fields": {
+        "category": 3,
+        "sku": "ONE-10X-12X",
+        "name": "One World Trade Center",
+        "description": "One World Trade Center (also known as One World Trade, One WTC, and formerly Freedom Tower) is the main building of the rebuilt World Trade Center complex in Lower Manhattan, New York City. One WTC is the tallest building in the United States, the tallest building in the Western Hemisphere, and the sixth-tallest in the world. The supertall structure has the same name as the North Tower of the original World Trade Center",
+        "has_sizes": true,
+        "price": "55.00",
+        "rating": "4.70",
+        "image_url": null,
+        "image": "World_Trade_Center.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 22,
+        "fields": {
+        "category": 3,
+        "sku": "SUN-10X-12X",
+        "name": "Sunset",
+        "description": "Taken from my bedroom window and completely untouched by any photoshop editors or lightroom filters. This is the the true and raw beauty of our planet and the amazing colours it can create. Mother Nature is a true wonder to behold.",
+        "has_sizes": true,
+        "price": "50.00",
+        "rating": "4.60",
+        "image_url": null,
+        "image": "Sunset.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 23,
+        "fields": {
+        "category": 3,
+        "sku": "NEW-10X-12X",
+        "name": "New York Arial",
+        "description": "A shot taken from atop the Empire State building looking downtown Manhattan on a glorious February brisk and cold Spring morning. The Freedom tower is clearly visible and off to it's right stands the Statue of Liberty.",
+        "has_sizes": true,
+        "price": "55.00",
+        "rating": "4.70",
+        "image_url": null,
+        "image": "New_York_Ariel.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 24,
+        "fields": {
+        "category": 4,
+        "sku": "HAL-10X-12X",
+        "name": "Halo Jones",
+        "description": "The eponymous heroine is a highly sympathetic 50th-century everywoman, wonderfully created by Alan Moore and Ian Gibson of 2000AD comics. Drawn here on paper with a rotring pen.",
+        "has_sizes": true,
+        "price": "30.00",
+        "rating": "4.20",
+        "image_url": null,
+        "image": "2000AD_Halo_Jones.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 25,
+        "fields": {
+        "category": 4,
+        "sku": "BAD-10X-12X",
+        "name": "Bad Company",
+        "description": "The brutal Krool Heart, leader of the Krools in the 2000AD creation Bad Company…..a truly menacing character. Pen, paper, rotring pen.....",
+        "has_sizes": true,
+        "price": "30.00",
+        "rating": "4.50",
+        "image_url": null,
+        "image": "2000AD_Bad_Company.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 26,
+        "fields": {
+        "category": 4,
+        "sku": "SLÁ-10X-12X",
+        "name": "Sláine",
+        "description": "Sláine (pronounced Slaw-nia)is a wanderer who is banished from his tribe, the Sessair. He explores the Land of the Young (Irish: Tír na Nóg) with an unscrupulous dwarf called Ukko, fighting monsters and mercenaries. Pen, paper, rotring pen.",
+        "has_sizes": true,
+        "price": "30.00",
+        "rating": "4.30",
+        "image_url": null,
+        "image": "2000AD_Slaine.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 27,
+        "fields": {
+        "category": 5,
+        "sku": "ET-10X-12X",
+        "name": "ET Playtime",
+        "description": "Steven Spielberg holding ET up for a game of the classic 80’s Pac-Man. ET dominated the movies in 1983/84 and still to this day has millions of views every year around Haloween. An iconic creation loved and adored by millions",
+        "has_sizes": false,
+        "price": "25.00",
+        "rating": "4.10",
+        "image_url": null,
+        "image": "ET_Playtime_vizciHP.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 28,
+        "fields": {
+        "category": 5,
+        "sku": "LAU-10X-12X",
+        "name": "Laurel & Hardy",
+        "description": "Laurel and Hardy were a comedy duo act during the early Classical Hollywood era of American cinema, consisting of Englishman Stan Laurel(1890–1965) and American Oliver Hardy (1892–1957).",
+        "has_sizes": false,
+        "price": "25.00",
+        "rating": "4.40",
+        "image_url": null,
+        "image": "Laurel__Hardy.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 29,
+        "fields": {
+        "category": 5,
+        "sku": "OBE-10X-12X",
+        "name": "Obelix",
+        "description": "Obelix  is a cartoon character in the French comic book series Asterix He works as a menhir sculptor and deliveryman, and is Asterix’s best friend",
+        "has_sizes": false,
+        "price": "20.00",
+        "rating": "4.20",
+        "image_url": null,
+        "image": "Obelix.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 31,
+        "fields": {
+        "category": 7,
+        "sku": "BEE-10X-12X",
+        "name": "Bee Supper Time",
+        "description": "Captured with a 300mm Zoom lens on a macro setting using a Canon DS1200, this little mite was enjoying some fresh pollen when I happened upon him. He gave me a lovely pose indeed.",
+        "has_sizes": true,
+        "price": "55.00",
+        "rating": "4.90",
+        "image_url": null,
+        "image": "Bee_Close_UvR5kbs.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 32,
+        "fields": {
+        "category": 7,
+        "sku": "FUL-10X-12X",
+        "name": "Full Moon Fever",
+        "description": "Shot in the Southern Hemisphere in Perth Australia. Camera mounted on a tripod with a remote to keep perfect steadiness. I had to be quick because as perfect a shot as it looks we are rotating so fast that the image passes the lens so quickly you could easily miss it.",
+        "has_sizes": true,
+        "price": "65.00",
+        "rating": "4.90",
+        "image_url": null,
+        "image": "Full_Moon_Fever.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 33,
+        "fields": {
+        "category": 7,
+        "sku": "SPI-10X-12X",
+        "name": "Spider Mam",
+        "description": "A Spider Mammy looking after her brood. Captured again on the macro setting mounted to a tripod for steadier action shots. She was showing off if you ask me. True beauty.",
+        "has_sizes": true,
+        "price": "55.00",
+        "rating": "4.80",
+        "image_url": null,
+        "image": "Spider_Mam.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 35,
+        "fields": {
+        "category": 2,
+        "sku": "VEN-10X-12X",
+        "name": "Venom",
+        "description": "The Symbiont villain that is Venom, Spiderman’s far out villain/hero of the Marvel Universe. Uses Eddie Brock as his host to reign down utter chaos on everyone....but in a humorous fashion.",
+        "has_sizes": true,
+        "price": "65.00",
+        "rating": "4.90",
+        "image_url": null,
+        "image": "Venom_Colour.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 36,
+        "fields": {
+        "category": 4,
+        "sku": "D.R-10X-12X",
+        "name": "D.R & Quinch",
+        "description": "D.R. & Quinch are two delinquent alien drop-outs. Two alien teenage students Waldo \"D.R.\" (for \"Diminished Responsibility\") Dobbs, a scheming criminal mastermind, and Ernest Errol Quinch, his muscular purple-skinned companion in crime, have influenced Earth's history in various anarchic ways.",
+        "has_sizes": true,
+        "price": "30.00",
+        "rating": "4.50",
+        "image_url": null,
+        "image": "2000AD_D.R.__Quinch.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 37,
+        "fields": {
+        "category": 1,
+        "sku": "SUP-10X-12X",
+        "name": "Superman",
+        "description": "Superman is the classic archetype of the superhero character: he wears an outlandish costume, uses a codename, and fights evil with the aid of extraordinary abilities. Clark Kent is his civilian identity and Kal-El is his given birth name on Krypton, his home planet.",
+        "has_sizes": true,
+        "price": "55.00",
+        "rating": "4.70",
+        "image_url": null,
+        "image": "Superman.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 38,
+        "fields": {
+        "category": 8,
+        "sku": "WAT-10X-12X",
+        "name": "Watchmen",
+        "description": "Watchmen is set in an alternate reality that closely mirrors the contemporary world of the 1980s. The primary difference is the presence of superheroes. Seen here are the main protagonists of the story, created by Alan Moore and Dave Gibbons.",
+        "has_sizes": true,
+        "price": "150.00",
+        "rating": "5.00",
+        "image_url": null,
+        "image": "Watchmen.JPG"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 39,
+        "fields": {
+        "category": 8,
+        "sku": "BAC-10X-12X",
+        "name": "Back to the Future",
+        "description": "Back to the Future is a 1985 American science fiction film directed by Robert Zemeckis. Written by Zemeckis and Bob Gale, it stars Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover, and Thomas F. Wilson. Set in 1985, the story follows Marty McFly (Fox), a teenager accidentally sent back to 1955 in a time-traveling DeLorean automobile built by his eccentric scientist friend Doctor Emmett \"Doc\" Brown (Lloyd). All the main characters are shown here and it is one of my most favourite trilogies ever.",
+        "has_sizes": true,
+        "price": "150.00",
+        "rating": "5.00",
+        "image_url": null,
+        "image": "Back_to_the_Future.JPG"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 40,
+        "fields": {
+        "category": 8,
+        "sku": "GUI-10X-12X",
+        "name": "Guinness Advert",
+        "description": "An idea I had to promote Guinness. Created from a photo I took of a Pint and added graphics and filters through Photoshop.",
+        "has_sizes": true,
+        "price": "35.00",
+        "rating": "4.30",
+        "image_url": null,
+        "image": "Guinness.jpg"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 41,
+        "fields": {
+        "category": 8,
+        "sku": "ACO-10X-12X",
+        "name": "Acoustra Band",
+        "description": "An image I drew of my own band members (along with myself...bottom left). Liam(top left), Pat (top right) and Brian(bottom right).",
+        "has_sizes": true,
+        "price": "45.00",
+        "rating": "4.30",
+        "image_url": null,
+        "image": "Acoustra_Portrait.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 42,
+        "fields": {
+        "category": 8,
+        "sku": "ME-10X-12X",
+        "name": "Me & Mam",
+        "description": "A beautiful moment captured by my good friend Ray Stanley at my 40th birthday. Created then on my iPad and gifted to my Mother.......Sentiment!",
+        "has_sizes": false,
+        "price": "0.00",
+        "rating": "5.00",
+        "image_url": null,
+        "image": "Me__Mam.JPG"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 43,
+        "fields": {
+        "category": 8,
+        "sku": "POL-10X-12X",
+        "name": "Polygon Dog",
+        "description": "Created as a graphic to be attached to my friends camper van named Toppy. It is a polygon of her dog Jake",
+        "has_sizes": true,
+        "price": "35.00",
+        "rating": "4.60",
+        "image_url": null,
+        "image": "Polygon_Dog.JPG"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 44,
+        "fields": {
+        "category": 9,
+        "sku": "JOK-10X-12X",
+        "name": "The Joker",
+        "description": "The Joker is portrayed as a criminal mastermind (Heath Ledger). Introduced as a psychopath with a warped, sadistic sense of humor. and happens to be Batman's arch enemy. The Joker possesses no superhuman abilities, instead using his expertise in chemical engineering to develop poisonous or lethal concoctions and thematic weaponry, including razor-tipped playing cards, deadly joy buzzers, and acid-spraying lapel flowers.",
+        "has_sizes": true,
+        "price": "60.00",
+        "rating": "5.00",
+        "image_url": null,
+        "image": "Joker.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 45,
+        "fields": {
+        "category": 9,
+        "sku": "DOO-10X-12X",
+        "name": "The Doors",
+        "description": "The Doors were an American rock band formed in Los Angeles in 1965, with vocalist Jim Morrison, keyboardist Ray Manzarek, guitarist Robby Krieger, and drummer John Densmore. They were among the most controversial and influential rock acts of the 1960s; mostly due to Morrison's lyrics and voice, along with his erratic stage persona, and the group was widely regarded as an important part of the era's counterculture.",
+        "has_sizes": true,
+        "price": "50.00",
+        "rating": "4.80",
+        "image_url": null,
+        "image": "The_Doors.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 46,
+        "fields": {
+        "category": 9,
+        "sku": "GRU-10X-12X",
+        "name": "Grumpy",
+        "description": "Grumpy is one of the titular seven dwarfs in Disney's 1937 film Snow White and the Seven Dwarfs. True to his name, Grumpy is grouchy, overbearing, and short-fused. Often portrayed with a scowl and crossed arms, he is frequently annoyed by the other dwarfs. Deep down, Grumpy possesses a warm heart but seldom chooses to show it.",
+        "has_sizes": true,
+        "price": "30.00",
+        "rating": "4.60",
+        "image_url": null,
+        "image": "Grumpy.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 47,
+        "fields": {
+        "category": 9,
+        "sku": "GOD-10X-12X",
+        "name": "The Godfather",
+        "description": "The Godfather is a 1972 American crime film directed by Francis Ford Coppola, who co-wrote the screenplay with Mario Puzo, based on Puzo's best-selling 1969 novel of the same name. Portrait of the great Marlon Brando playing Vito Corleone, the Godfather mafioso.",
+        "has_sizes": true,
+        "price": "40.00",
+        "rating": "4.60",
+        "image_url": null,
+        "image": "Godfather.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 49,
+        "fields": {
+        "category": 1,
+        "sku": null,
+        "name": "Samuel Beckett",
+        "description": "sam",
+        "has_sizes": false,
+        "price": "200.00",
+        "rating": "4.00",
+        "image_url": null,
+        "image": "Samuel_Beckett.png"
+        }
+        },
+        {
+        "model": "products.product",
+        "pk": 51,
+        "fields": {
+        "category": 8,
+        "sku": "LOR 10X 12X",
+        "name": "Lord of the Rings",
+        "description": "Lord of the Rings...fabulous",
+        "has_sizes": true,
+        "price": "150.00",
+        "rating": "5.00",
+        "image_url": null,
+        "image": "Lord_of_the_Rings.png"
+        }
+        }
 ]
