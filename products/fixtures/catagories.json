@@ -1,114 +1,83 @@
 [
     {
-
-    "pk": 1,
-
-    "model": "products.category",
-
-    "fields": {
-
-        "name": "portraits",
-
-        "friendly_name": "Portraits"
-
+        "model": "products.category",
+        "pk": 1,
+        "fields": {
+            "name": "portraits",
+            "friendly_name": "Portraits"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 2,
+        "fields": {
+            "name": "sketches",
+            "friendly_name": "Sketches"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 3,
+        "fields": {
+            "name": "photography",
+            "friendly_name": "Photography"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 4,
+        "fields": {
+            "name": "2000ad",
+            "friendly_name": "2000AD"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 5,
+        "fields": {
+            "name": "caricatures",
+            "friendly_name": "Caricatures"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 6,
+        "fields": {
+            "name": "paintings",
+            "friendly_name": "Paintings"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 7,
+        "fields": {
+            "name": "macros",
+            "friendly_name": "Macros"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 8,
+        "fields": {
+            "name": "new_creations",
+            "friendly_name": "New Creations"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 9,
+        "fields": {
+            "name": "special_offers",
+            "friendly_name": "Special Offers"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 10,
+        "fields": {
+            "name": "requests",
+            "friendly_name": "Requests"
+        }
     }
-
-},
-
-{
-
-    "pk": 2,
-
-    "model": "products.category",
-
-    "fields": {
-
-        "name": "sketches",
-
-        "friendly_name": "Sketches"
-
-    }
-
-},
-
-{
-
-    "pk": 3,
-
-    "model": "products.category",
-
-    "fields": {
-
-        "name": "photography",
-
-        "friendly_name": "Photography"
-
-    }
-
-},
-
-{
-
-    "pk": 4,
-
-    "model": "products.category",
-
-    "fields": {
-
-        "name": "2000ad",
-
-        "friendly_name": "2000 AD"
-
-    }
-
-},
-
-{
-
-    "pk": 5,
-
-    "model": "products.category",
-
-    "fields": {
-
-        "name": "caricatures",
-
-        "friendly_name": "Caricatures"
-
-    }
-
-},  
-
-{
-
-    "pk": 6,
-
-    "model": "products.category",
-
-    "fields": {
-
-        "name": "paintings",
-
-        "friendly_name": "Paintings"
-
-    }
-
-},
-
-{
-
-    "pk": 7,
-
-    "model": "products.category",
-
-    "fields": {
-
-        "name": "macro",
-
-        "friendly_name": "Macro"
-
-    }
-
-}
 
 ]
