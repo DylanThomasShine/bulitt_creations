@@ -180,8 +180,8 @@ if 'USE_AWS' in os.environ:
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'bulitt-creations' 
     AWS_S3_REGION_NAME = 'EU (Ireland) eu-west-1'
-    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    AWS_ACCESS_KEY_ID = os.environ.get('AKIA4OJ4JSJ66QHIVZXH')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('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')
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
 
     # Static and media files
@@ -198,7 +198,7 @@ if 'USE_AWS' in os.environ:
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
 STRIPE_CURRENCY = 'usd'
-STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
-STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+STRIPE_PUBLIC_KEY = os.getenv('pk_test_51JfnSWHjOAJdLtL9sve284ntDkhaEsWnqn48ZtLZSGzqlV8Ia2joE8FYiErRSIAgoawCcz1nK9ZkOU788AlJYi1Q00ngCaZkGr', '')
+STRIPE_SECRET_KEY = os.getenv('sk_test_51JfnSWHjOAJdLtL9H0eLUhD62jTWtyMOgX92gTEe90EkYq1SdxZOHasJygBgXHyhbG9LZQ9lM9yM99hwNTUeqgCb00YCMR5FQ4', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 DEFAULT_FROM_EMAIL = 'bulittfelt@gmail.com'
