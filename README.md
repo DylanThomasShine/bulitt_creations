@@ -28,6 +28,8 @@ This project is an eCommerce shop front to host my graphic design and artistic c
     + [Font](#font)
     + [Color Scheme](#color-scheme)
     + [Wireframes](#wireframes)
+    + [Database Relationship Schema](#database-relationship-schema)
+
 - [Testing](#testing)
     + [Product Features](#product-features)
     + [Users Features](#users-features)
@@ -125,6 +127,12 @@ The main color used throughout the page is pale and light, almost white, as this
  
 ## [Bulitt Creations Wireframes](https://github.com/DylanThomasShine/bulitt_creations/blob/main/Bulitt%20Creations%20Wireframes.pdf)
 </details>
+<br><br>
+
+## Database Relationship Schema
+
+![Database Relationship Schema](/media/schema.png) 
+
 <br><br>
 
 ## Technologies
@@ -286,7 +294,7 @@ This option is available to both logged in and not logged in users. The differen
 | As a store owner I want to be able to delete a product remove product if they are no longer for sale                                                                                         | <ul><li>Whle logged in as a superuser, click on Delete option by product that needs to be deleted</li><li>A success toast appears and the product is gone from the system</li></ul>                                                                                                                                                                                                                                                         |
 <br>
 
-<p id="usertest"><h1 align="center"><strong>ERR</strong>ORS</h1></p>
+<p id="errors"><h1 align="center"><strong>ERR</strong>ORS</h1></p>
 
 | <h2>Error</h2> | <h2>Resolve</h2>                                                                                                                |
 |-------|--------------------------------------------------------------------------------------------------------------------------|
@@ -396,7 +404,7 @@ the 'DATABASE_URL' to the Config Vars.
 1. By choosing Github as a deployment method, you have to enter your Github link and choose <strong>Automatic Deployments.</strong> This will enable every commit to push directly to Heroku.
 <br>
 
-<p id="usertest"><h1 align="center"><strong>CRE</strong>DITS</h1></p>
+<p id="credits"><h1 align="center"><strong>CRE</strong>DITS</h1></p>
 <br>
 
 The inspiration for the website was mainly taken from the Coding Institute lectures presented by Chris Zielinski. 
