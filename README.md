@@ -212,7 +212,7 @@ This option is available to both logged in and not logged in users. The differen
 |  <h2>Feature</h2> |  <h2>Action</h2> | <h2>&nbsp; &nbsp;&nbsp; Effect</h2> |
 |---|---|---|
 | Logo (upper left corner)  |  Hover over |  <ul><li>The address on hover is showing as home page</li></ul> |
-| Search bar  |  Entered "Lord of the Rings", |<ul><li> one creation is listed under this name - correct</li><li>The summary shows message "1 Creation(s) found for "Lord of the Rings"</ul>|
+| Search bar  |  Entered "Lord of the Rings" |<ul><li> One creation is listed under this name - correct</li><li>The summary shows message "1 Creation(s) found for "Lord of the Rings"</ul>|
 |  Explore Creations, bringing to all creations page|  Click on Explore Creations button |  <ul><li>Linked correctly</li></ul>  |
 | View Options  |  Click on By Price |  <ul><li>Items appear sorted ascending, from low price to high</li></ul> |
 |   |  Click on By Rating |  <ul><li>Items appear sorted descending, from high rating to low</li></ul> |
@@ -229,8 +229,7 @@ This option is available to both logged in and not logged in users. The differen
 | View New Creations |  Click on Recently Added |  <ul><li>New creations are displayed, the badge on top of the page states same.</li></ul> |
 |   |  Click on Special Offers |  <ul><li>Special Offers are displayed, along with badge</li></ul> |
 |   |  Click on All Creations |  <ul><li>bringing to all creations page, heading shows "CREATIONS""</li></ul> |
-| Request Creation |  Click on Request Creation |  <ul><li>Request a Creation form is displayed along with "REQUEST MANAGEMENT" heading</li></ul> | 
-|   
+| Request Creation |  Click on Request Creation |  <ul><li>Request a Creation form is displayed along with "REQUEST MANAGEMENT" heading</li></ul> |    
 | My Account  |  Click on Register |  <ul><li>Sign up form appears</li><li>Form sends</li><li>Confirmation email appears in the email box</li><li>Clicked on the confirmation email - Confirm email address page appears</li><li>Logged in with newly created account - the success message appears and I am now logged in</li><li>Upon clicking Confirm, a success message appears and a signing page is returned</li></ul> |
 |   |  Click on Login |  <ul><li>The address on hover is showing as home page</li></ul> |
 | Bag  |  Bag empty |  <ul><li>Click on Continue Browsing button, brings me back to all Creations page</li></ul> |
