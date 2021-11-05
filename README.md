@@ -4,6 +4,12 @@
 ![Portfolio website](/media/bulittcreationslogoweb.jpg) 
 
 
+<br>
+
+
+[![Heroku](https://img.shields.io/badge/Bulitt%20Creations%20Live%20Site-Heroku-orange)](https://bulitt-creations.herokuapp.com/)
+
+<br>
 
 # Intro
 
@@ -425,7 +431,7 @@ Below are other resources I used while building the project:
 3. [Slack](https://slack.com/intl/en-ie/)
 
 <strong>Colin</strong> Kam for his help on the telephone<br>
-<strong>Tim</strong> O Brien and <strong>Eoin</strong> Lynch for their knowledge and time they shared with me on this <strong>BEHE</strong>METH of an endevour
+<strong>Tim</strong> Curtin and <strong>Eoin</strong> Lynch for their knowledge and time they shared with me on this <strong>BEHE</strong>METH of an endevour
 
 
 ### All images were created, drawn, photographed or imagined by <strong>Dylan</strong> Thomas Shine for use on this project:
