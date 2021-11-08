@@ -25,7 +25,6 @@ def commission(request):
     }
     return render(request, template, context)
 
-
 # Request a Creation
 @login_required
 def add_commission(request):

@@ -19,4 +19,4 @@ class CommissionForm(forms.ModelForm):
 
     class Meta:
         model = Commission
-        fields = ('first_name', 'last_name', 'email', 'message')
+        fields = ('first_name', 'last_name', 'email', 'message', 'image')
