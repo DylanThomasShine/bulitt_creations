@@ -2,5 +2,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('add/', views.add_commission, name='add_commission'),
+    path('add/', views.commission, name='commission'),
 ]
