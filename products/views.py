@@ -106,8 +106,6 @@ def edit_product(request, product_id):
         messages.error(request, 'Sorry, thats the bosses job.')
         return redirect(reverse('home'))
 
-    print('This is a test')
-
     product = get_object_or_404(Product, pk=product_id)
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES, instance=product)
