@@ -11,7 +11,7 @@ def commission(request):
     template = "commission/commission.html"
 
     if request.method == "POST":
-        form = CommissionForm(request.POST)
+        form = CommissionForm(request.POST, request.FILES)
 
         if form.is_valid():
             form.save()
@@ -30,7 +30,9 @@ def commission(request):
 @login_required
 def add_commission(request):
     """ Request a Commission from the store """
+
     form = CommissionForm()(request.POST, request.FILES)
+
     if request.method == 'POST':
         
         if form.is_valid():
