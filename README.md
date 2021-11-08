@@ -220,11 +220,11 @@ This option is available to both logged in and not logged in users. The differen
 | Logo (upper left corner)  |  Hover over |  <ul><li>The address on hover is showing as home page</li></ul> |
 | Search bar  |  Entered "Lord of the Rings" |<ul><li> One creation is listed under this name - correct</li><li>The summary shows message "1 Creation(s) found for "Lord of the Rings"</ul>|
 |  Explore Creations, bringing to all creations page|  Click on Explore Creations button |  <ul><li>Linked correctly</li></ul>  |
-| View Options  |  Click on By Price |  <ul><li>Items appear sorted ascending, from low price to high</li></ul> |
+| Options  |  Click on By Price |  <ul><li>Items appear sorted ascending, from low price to high</li></ul> |
 |   |  Click on By Rating |  <ul><li>Items appear sorted descending, from high rating to low</li></ul> |
 |   |  Click on Alphabetically |  <ul><li>Categories of Items become sorted alphabetically</li></ul> |
 |   |  Click on All|  <ul><li>All items are displayed, sorted by SKU</li></ul> |
-| View Catagories  |  Click on Portraits |  <ul><li>Creations from that Category are displayed, the badge on top of the page also states what Category we are currently in.</li></ul> |
+| Catagories  |  Click on Portraits |  <ul><li>Creations from that Category are displayed, the badge on top of the page also states what Category we are currently in.</li></ul> |
 |   |  Click on Paintings|  <ul><li>Creations from that Category are displayed, the badge on top of the page also states what Category we are currently in.</li></ul>|
 |   |  Click on Photography |  <ul><li>Creations from that Category are displayed, the badge on top of the page also states what Category we are currently in.</li></ul>|
 |   |  Click on Macros |  <ul><li>Creations from that Category are displayed, the badge on top of the page also states what Category we are currently in.</li></ul> |
@@ -232,10 +232,10 @@ This option is available to both logged in and not logged in users. The differen
 |   |  Click on Sketches |  <ul><li>Creations from that Category are displayed, the badge on top of the page also states what Category we are currently in.</li></ul> |
 |   |  Click on Caricatures |  <ul><li>Creations from that Category are displayed, the badge on top of the page also states what Category we are currently in.</li></ul> |
 |   |  Click on All Creations| <ul><li>All Creations are displaying</li></ul> |
-| View New Creations |  Click on Recently Added |  <ul><li>New creations are displayed, the badge on top of the page states same.</li></ul> |
+| New      |  Click on Recently Added |  <ul><li>New creations are displayed, the badge on top of the page states same.</li></ul> |
 |   |  Click on Special Offers |  <ul><li>Special Offers are displayed, along with badge</li></ul> |
-|   |  Click on All Creations |  <ul><li>bringing to all creations page, heading shows "CREATIONS""</li></ul> |
-| Request Creation |  Click on Request Creation |  <ul><li>Request a Creation form is displayed along with "REQUEST MANAGEMENT" heading</li></ul> |    
+| Contact |  Click on Contact Form |  <ul><li>Contact Us form is displayed</li></ul> |
+| Request Commission |  Click on Commission Form|  <ul><li>Request a Commission form is displayed</li></ul> |    
 | My Account  |  Click on Register |  <ul><li>Sign up form appears</li><li>Form sends</li><li>Confirmation email appears in the email box</li><li>Clicked on the confirmation email - Confirm email address page appears</li><li>Logged in with newly created account - the success message appears and I am now logged in</li><li>Upon clicking Confirm, a success message appears and a signing page is returned</li></ul> |
 |   |  Click on Login |  <ul><li>The address on hover is showing as home page</li></ul> |
 | Bag  |  Bag empty |  <ul><li>Click on Continue Browsing button, brings me back to all Creations page</li></ul> |
@@ -244,7 +244,7 @@ This option is available to both logged in and not logged in users. The differen
 | | <h3>Home Page</h3> | |
 | Explore Creations button  |  Clicked on |  <ul><li>Brings me to a page with all creations</li></ul> |
 | | <h3>All Creations Page</h3>  | |
-| View Options Dropdown  |  Sort testing each Condition |  <ul><li>Price (low to high) - sorts according to price, from cheapest to dearest</li><li> Price (high to low) - sorts according to price, from dearest to cheapest</li><li>Rating (low to high) - sorts rating from lowest</li><li>Rating (high to low) - sorts rating from highest.</li><li>Name (A-Z) - sorts Products alphabetically</li><li>Name (Z-A) - sorts products reverse-alphabetically</li><li>Category (A-Z) - sorts Categories of products alphabetically</li><li>Category (Z-A) - sorts Products by Categories sorted reverse-alphabetically</li></ul> |
+| Options Dropdown  |  Sort testing each Condition |  <ul><li>Price (low to high) - sorts according to price, from cheapest to dearest</li><li> Price (high to low) - sorts according to price, from dearest to cheapest</li><li>Rating (low to high) - sorts rating from lowest</li><li>Rating (high to low) - sorts rating from highest.</li><li>Name (A-Z) - sorts Products alphabetically</li><li>Name (Z-A) - sorts products reverse-alphabetically</li><li>Category (A-Z) - sorts Categories of products alphabetically</li><li>Category (Z-A) - sorts Products by Categories sorted reverse-alphabetically</li></ul> |
 | Superuser - editing the creation details  |  Click on the Edit option underneath one of the creations |  <ul><li>A Manage Creations Edit a Creation form is rendered and a warning message is triggered in upper right corner</li><li>Changed Category and Name,saved</li><li>Name and Category successfully changed, confirmed with a success toast rendered in upper right corner </li></ul> |
 |   |  Click on the Delete option |  <ul><li>Product is immediately deleted and a success toast confirming deletion is rendered in the upper right corner of the page </li></ul>|
 | Adding a Creation to the bag  |  Click on the Creation and click Add to Bag |  <ul><li>Bag total updates to the correct amount, success toast confirms the Creation was added to the bag </li></ul> |
@@ -438,6 +438,7 @@ Below are other resources I used while building the project:
 
 <br>
 
+[![Heroku](https://img.shields.io/badge/Bulitt%20Creations%20Live%20Site-Heroku-orange)](https://bulitt-creations.herokuapp.com/)
 
 ![Portfolio website](/media/bulittcreationslogoweb.jpg) 
 

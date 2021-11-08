@@ -421,7 +421,7 @@ input[name='q']::placeholder {
 
 /* ---------footer----------*/
 
-.footer {
+/*.footer {
     position: flex;
     background-color: #f7f6f3;
     width: 100%;
@@ -452,7 +452,7 @@ input[name='q']::placeholder {
 .bulitt{
     padding-left: 3%; 
     
-}
+} */
 
 @media (max-width: 991px) {
 	.searchbar {
