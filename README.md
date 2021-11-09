@@ -441,6 +441,9 @@ Below are other resources I used while building the project:
 [![Heroku](https://img.shields.io/badge/Bulitt%20Creations%20Live%20Site-Heroku-orange)](https://bulitt-creations.herokuapp.com/)
 
 ![Portfolio website](/media/bulittcreationslogoweb.jpg) 
+<br>
+
+<p id ="userstories"><h1 align="center"><strong>THANK</strong> YOU</h1></p>
 
 
 
