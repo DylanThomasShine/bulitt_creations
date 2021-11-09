@@ -471,6 +471,18 @@ input[name='q']::placeholder {
 		display: none;
 	}
 }
+@media (max-width: 1200px) {
+	.col-12 {
+		max-width: 60%;
+	}
+}
+@media (max-width: 350px) {
+	.list-inline-item{
+		max-width: 20%;
+	}
+}
+
+
 /*perfecting responsiveness on smallest screens*/
 
 @media (max-width: 503px) {
