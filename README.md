@@ -44,6 +44,7 @@ This project is an eCommerce shop front to host my graphic design and artistic c
 - [Local deployment](#local-deployment)
 - [Deployment on Heroku](#deployment-on-heroku)
 - [Credits](#credits)
+- [Thank You](#thanks)
     
 
 <p id="userex"><h1 align="center"><strong>USER</strong> EXPERIENCE</h1></p>
@@ -283,7 +284,7 @@ This option is available to both logged in and not logged in users. The differen
 
  | <h2>User Story</h2>                                                                                                                                                                                  | <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Testing<h2>                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| As a shopper I want to be able to view the list of creations to purchase. some                                                                                                                 | <ul><li>The list of creations is available as per below</li><li>Home page - click on Explore Creations button  - choose the desired filtering or choose 'All Creations'.</li></ul>                                                                                                                                                                                                                                                               |
+| As a shopper I want to be able to view the list of creations to purchase some                                                                                                                 | <ul><li>The list of creations is available as per below</li><li>Home page - click on Explore Creations button  - choose the desired filtering or choose 'All Creations'.</li></ul>                                                                                                                                                                                                                                                               |
 | As a shopper I want to be able to view individual creation details to identify the price and description.                                                                                      | <ul><li>While at All creations click on a sample creation</li><li>The Price and Description is clearly visible.</li></ul>                                                                                                                                                                                                                                                                                                                      |
 | As a shopper I want to be able to quickly identify new special offers to take advantage of special savings on creations I'd like to buy.                                                           | <ul><li>One of the CTA buttons on navbar is marked as New and is visible from every page of the website.</li></ul>                                                                                                                                                                                                                                                                                                                |
 | As a shopper I want to be able to easily view the total of my purchases at any time to see the history of my purchases and how much I spent.                                                  | <ul><li>This feature can be accessed on My Account -> My Profile</li><li>History of orders is visible next to the profile details.</li></ul>                                                                                                                                                                                                                                                                                                 |
@@ -443,7 +444,8 @@ Below are other resources I used while building the project:
 ![Portfolio website](/media/bulittcreationslogoweb.jpg) 
 <br>
 
-<p id ="userstories"><h1 align="center"><strong>THANK</strong> YOU</h1></p>
+<p id="thanks"><h1 align="center"><strong>THANK</strong> YOU</h1></p>
+<p><h1 align="center">for<strong> browsing</strong> my <strong>README</strong> file.....</h1></p>
 
 
 
