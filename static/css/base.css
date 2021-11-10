@@ -9,7 +9,7 @@ body {
     color: #555;
     font-family: 'Lato';
     overflow-x:hidden;
-    line-height: 1;
+    line-height: 1.5;
 }
 
 /* from Bulma */
@@ -27,6 +27,12 @@ body {
 
 #bulitt {
     text-shadow: 0px 0px 5px #000
+
+}
+@media (max-width: 600px) {
+	#bulitt {
+		font-size: 30px;
+	}
 }
 
 .main-logo-link {
@@ -472,7 +478,7 @@ input[name='q']::placeholder {
 	}
 }
 @media (max-width: 1200px) {
-	.col-12 {
+	.list-inline-item{
 		max-width: 60%;
 	}
 }
