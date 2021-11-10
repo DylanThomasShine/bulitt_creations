@@ -19,6 +19,15 @@ This project is an eCommerce shop front to host my graphic design and artistic c
 
 <p align="center">The site is worked within Django structure, sent live on Heroku, utilizes AWS S3 to have media and static records. Locally, it utilizes the inherent Django Db.sqlite3 information base, though when conveyed live it uses Heroku's Postgres information base. Authentication functionality is provided by Django's Allauth: administrator superuser can add and alter things in the Products and Categories applications, while visiting clients can enlist and login, accessing vestige depictions and their request history in the Checkout and Profile applications.</p>
 
+## IMPORTANT NOTICE
+<br>
+<details><summary><strong>PLEASE READ</strong></summary>
+<br>
+
+![Please Read](/media/deletion.jpg)
+</details>
+<br><br>
+
 
 - [User Experience](#userex)
    +  [Goals](#goals)
