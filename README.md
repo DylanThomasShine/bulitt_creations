@@ -168,6 +168,7 @@ The main color used throughout the page is pale and light, almost white, as this
 [![Django](https://img.shields.io/badge/Microframework-Django-%238B0000)](https://www.djangoproject.com/)<br>
 [![Shields](https://img.shields.io/badge/Readme%20Badges-Shields-lightgrey)](https://shields.io/)<br>
 [![JShint](https://img.shields.io/badge/JS%2FjQuery%20Validator-JSHint-%23008e94)](https://jshint.com/)<br>
+[![SureOak](https://img.shields.io/badge/SureOak-Automated%20Testing-green)](https://www.sureoak.com/)<br>
 [![SQlite3](https://img.shields.io/badge/SQLite-Production%20Database-yellowgreen)](https://www.sqlite.org)<br>
 [![Bootstrap](https://img.shields.io/badge/Design%20Framework-Bootstrap-%23F5A4A7)](https://getbootstrap.com/)<br>
 [![Pep8 Online](https://img.shields.io/badge/Python%20Validator-PEP8%20online-white)](http://pep8online.com/)<br>
@@ -175,6 +176,9 @@ The main color used throughout the page is pale and light, almost white, as this
 [![Schema](https://img.shields.io/badge/DataBase%20Schema%20-App%20Diagrams-lightgrey)](https://app.diagrams.net/)<br>
 [![W3C CSS Validator](https://img.shields.io/badge/CSS%20Validator-W3C%20CSS%20Validator-darkred)](https://jigsaw.w3.org/css-validator/)<br>
 [![W3C HTML Validator](https://img.shields.io/badge/HTML%20Validator-W3C%20HTML%20Validator-red)](https://validator.w3.org/)<br>
+
+
+
 
 <br><br>
 
