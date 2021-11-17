@@ -406,7 +406,6 @@ input[name='q']::placeholder {
         text-align: center;
         margin-bottom: 30px;
         font-size: 80%;
-        padding-right: 40px;
     }
     
     .social-networks i:hover {
@@ -442,7 +441,6 @@ input[name='q']::placeholder {
     text-align: center;
     margin-bottom: 30px;
     font-size: 100%;
-    padding-right:40px;
 }
 
 .social-networks i:hover {
