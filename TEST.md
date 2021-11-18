@@ -18,6 +18,10 @@
 |![Region Error](/media/region_error.png)|![Region Resolve](/media/region_resolve.png) |
 | Not deploying to local server | Added in the Coma that was missing from settings.py for SECRET_KEY |
 |![Secret Key Error](/media/secret_key_error.png) | ![Secret Key Resolve](/media/secret_key_resolve.png)
+| Webhook not receiving for local server | Created a new endpoint and deleted older one
+|![Local webhook Fail](/media/local_fail.png) | ![Local Webhook Resolve](/media/local_success.png)
+| Webhook not receiving for heroku server | Created a new endpoint and deleted older one and re-configured the Config Vars
+|![Heroku webhook Fail](/media/heroku_fail.png) | ![Heroku Webhook Resolve](/media/heroku_success.png)
 <br>
 
 <p><h1 align="center"><strong>PERFORMANCE</strong> TESTING</h1></p>
@@ -39,7 +43,7 @@ When testing for html it contained a lot of python code in it and as these resul
 
 <br>
 
-I did not know how to resolve these errors and in my research to find out how, they are classed as a style error and does not affect the code performance. I chose to ignore them and I dealt with any other error that arose, from trailing white lines to indents and so on.
+ In order to resolve these errors and in my research to find out how, I found they are classed as a style error and does not affect the code performance. I chose to use the comment <strong>#noqa</strong> only in places where a line break \ didn't work and began to mess up the code  and I dealt with any other errors that arose, from trailing white lines to indents and so on.
 <br><br>
 
 ## <strong>E6</strong> Syntax

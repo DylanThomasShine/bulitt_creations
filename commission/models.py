@@ -10,4 +10,3 @@ class Commission(models.Model):
 
     def __str__(self):
         return self.first_name
-        

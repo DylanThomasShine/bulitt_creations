@@ -7,6 +7,7 @@ from django.shortcuts import render
 from .models import Commission
 from .forms import CommissionForm
 
+
 def commission(request):
     template = "commission/commission.html"
 
@@ -23,7 +24,8 @@ def commission(request):
     context = {
         'form': form,
     }
-    return render(request, template, context)   
+    return render(request, template, context)
+
 
 # Request a Creation
 @login_required
@@ -33,13 +35,15 @@ def add_commission(request):
     form = CommissionForm()(request.POST, request.FILES)
 
     if request.method == 'POST':
-        
+
         if form.is_valid():
-            #commission = form.save()
+            # commission = form.save()
             messages.success(request, 'Successfully requested creation!')
-            #return redirect(reverse('commission_detail', args=[commission.first_name]))
+            # return redirect(reverse('commission_detail',\
+            # args=[commission.first_name]))
         else:
-            messages.error(request, 'Failed to request product. Please ensure the form is valid.')
+            messages.error(request, 'Failed to request product.\
+                             Please ensure the form is valid.')
     else:
         form = CommissionForm()
 
