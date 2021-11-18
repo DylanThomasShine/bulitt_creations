@@ -19,9 +19,8 @@ This project is an eCommerce shop front to host my graphic design and artistic c
 
 <p align="center">The site is worked within Django structure, sent live on Heroku, utilizes AWS S3 to have media and static records. Locally, it utilizes the inherent Django Db.sqlite3 information base, though when conveyed live it uses Heroku's Postgres information base. Authentication functionality is provided by Django's Allauth: administrator superuser can add and alter things in the Products and Categories applications, while visiting clients can enlist and login, accessing vestige depictions and their request history in the Checkout and Profile applications.</p>
 
-## IMPORTANT NOTICE
-<br>
-<details><summary><strong>PLEASE READ</strong></summary>
+## IMPORTANT  NOTICE
+<details><summary><strong>PLEASE</strong> READ</summary>
 <br>
 
 ![Please Read](/media/deletion.jpg)
@@ -48,7 +47,7 @@ This project is an eCommerce shop front to host my graphic design and artistic c
     + [Product Features](#product-features)
     + [Users Features](#users-features)
 - [User Stories Testing](#usertest)
-- [Error pages testing](#errors)
+- [Errors & Testing](#test)
 - [Deployments](#deployments)
 - [Local deployment](#local-deployment)
 - [Deployment on Heroku](#deployment-on-heroku)
@@ -176,9 +175,6 @@ The main color used throughout the page is pale and light, almost white, as this
 [![Schema](https://img.shields.io/badge/DataBase%20Schema%20-App%20Diagrams-lightgrey)](https://app.diagrams.net/)<br>
 [![W3C CSS Validator](https://img.shields.io/badge/CSS%20Validator-W3C%20CSS%20Validator-darkred)](https://jigsaw.w3.org/css-validator/)<br>
 [![W3C HTML Validator](https://img.shields.io/badge/HTML%20Validator-W3C%20HTML%20Validator-red)](https://validator.w3.org/)<br>
-
-
-
 
 <br><br>
 
@@ -324,21 +320,12 @@ This option is available to both logged in and not logged in users. The differen
 | As a store owner I want to be able to delete a creation and remove a creation if they are no longer for sale.                                                                                         | <ul><li>Whle logged in as a superuser, click on Delete option by the creation that needs to be deleted</li><li>A success toast appears and the creation is gone from the system.</li></ul>                                                                                                                                                                                                                                                         |
 <br>
 
-<p id="errors"><h1 align="center"><strong>ERR</strong>ORS</h1></p>
+<p id="test"><h1 align="center"><strong>ERRORS &</strong> TESTING</h1></p>
 
-| <h2>Error</h2> | <h2>Resolve</h2>                                                                                                                |
-|-------|--------------------------------------------------------------------------------------------------------------------------|
-| Navbar not responding properly on mobile view  | Changed padding and visibilty and sizes in CSS               |
-|![Navbar Error](/media/navbar_error.png) |![Navbar Resolve](/media/navbar_resolve.png)
-| Region error when deploying to heroku  | Region was inputted incorrectly in settings.py |
-|![Region Error](/media/region_error.png)|![Region Resolve](/media/region_resolve.png) |
-| Not deploying to local server | Added in the Coma that was missing from settings.py for SECRET_KEY |
-|![Secret Key Error](/media/secret_key_error.png) | ![Secret Key Resolve](/media/secret_key_resolve.png)
-<br>
-<p id="deployments"><h1 align="center"><strong>DEPLOY</strong>MENT</h1></p>
-<br>
+### Please click  [HERE](https://github.com/DylanThomasShine/bulitt_creations/blob/main/TEST.md) to guide you to a TEST MD file that has validation, testing and performance in greater detail
 
-### Requirements
+#
+## Requirements
 
  - an IDE such as GitPod or Visual Studio Code - I used GitPod
  - [PIP](https://pip.pypa.io/en/stable/installing/) to install packages in Python
@@ -348,7 +335,7 @@ This option is available to both logged in and not logged in users. The differen
  - [AWS](https://aws.amazon.com/) cloud storage service for online backup of website assets. (Create an S3 bucket)
 
 
-### Local deployment
+## Local deployment
 1. Save a copy of the github repository at https://github.com/DylanThomasShine/bulitt_creations by clicking the 'download.zip'
 button at the top of the page and extracting the zip file, or you clone the repository with this command:
    ```
@@ -391,7 +378,7 @@ button at the top of the page and extracting the zip file, or you clone the repo
     ```
 
 
-### Deployment on Heroku
+## Deployment on Heroku
 
 1. Go to https://heroku.com/ and create a new app with a unique name
 1. Provision the Postgres database: Go to the Resources tab and install the addon "Heroku Postgres". Heroku automatically adds

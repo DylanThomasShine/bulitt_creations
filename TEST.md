@@ -20,6 +20,15 @@
 |![Secret Key Error](/media/secret_key_error.png) | ![Secret Key Resolve](/media/secret_key_resolve.png)
 <br>
 
+# Performance Testing
+
+I used two different testers here to check for performance of the site and although it is not perfect it is my intend to make it so and I did not have the time as I found out too late about these programs that were available.<br> [![SureOak](https://img.shields.io/badge/SureOak-Automated%20Testing-green)](https://www.sureoak.com/)<br>&<br>[![SureOak](https://img.shields.io/badge/Light%20House-Performance%20Tool-blue)](https://developers.google.com/web/tools/lighthouse)
+
+<br>
+
+![Validation Results](/media/performance_results.jpg)
+
+
 # Validation Testing
 
 When testing for html it contained a lot of python code in it and as these results show I filtered the python code that showed as errors in the validator and I was left without any errors in the html code. I did this across the board while testing and when I had errors for the code I was testing I resolved them and the results are as follows. 
@@ -32,4 +41,19 @@ When testing for html it contained a lot of python code in it and as these resul
 
 I did not know how to resolve these errors and in my research to find out how, they are classed as a style error and does not affect the code performance. I chose to ignore them and I dealt with any other error that arose, from trailing white lines to indents and so on.
 
+<p id="userex"><h1 align="center"><strong>VALIDATION</strong> RESULTS</h1></p>
+<details><summary><strong>CHECKOUT</strong> APP</summary>
+<br>
+
 ![Validation Results](/media/checkout_results.jpg) 
+<br>
+
+<details><summary><strong>BAG</strong> APP</summary>
+<br>
+
+![Validation Results](/media/bag_results.jpg) 
+<br>
+<details><summary><strong>BULITT_CREATIONS</strong> APP</summary>
+<br>
+
+![Validation Results](/media/bulitt_results.jpg) 
