@@ -2,13 +2,13 @@
 
 <br>
 
- <h2>TESTING<h2>                                                                                                                                                                                 
+ <p><h1 align="center"><strong>TEST</strong> FILES</h1></p>                                                                                                                                                                                
 
 ![User Story image](/media/storyimage.jpg)
 
 <br>
 
-<p id="errors"><h1 align="center"><strong>ERR</strong>ORS</h1></p>
+<p><h1 align="center"><strong>ERR</strong>ORS</h1></p>
 
 | <h2>Error</h2> | <h2>Resolve</h2>                                                                                                                |
 |-------|--------------------------------------------------------------------------------------------------------------------------|
@@ -20,7 +20,7 @@
 |![Secret Key Error](/media/secret_key_error.png) | ![Secret Key Resolve](/media/secret_key_resolve.png)
 <br>
 
-# Performance Testing
+<p><h1 align="center"><strong>PERFORMANCE</strong> TESTING</h1></p>
 
 I used two different testers here to check for performance of the site and although it is not perfect it is my intend to make it so and I did not have the time as I found out too late about these programs that were available.<br> [![SureOak](https://img.shields.io/badge/SureOak-Automated%20Testing-green)](https://www.sureoak.com/)<br>&<br>[![SureOak](https://img.shields.io/badge/Light%20House-Performance%20Tool-blue)](https://developers.google.com/web/tools/lighthouse)
 
@@ -29,17 +29,25 @@ I used two different testers here to check for performance of the site and altho
 ![Validation Results](/media/performance_results.jpg)
 
 
-# Validation Testing
+# <strong>Validation</strong> Testing
 
 When testing for html it contained a lot of python code in it and as these results show I filtered the python code that showed as errors in the validator and I was left without any errors in the html code. I did this across the board while testing and when I had errors for the code I was testing I resolved them and the results are as follows. 
 
 <br>
 
-<h2>Line too long<h2> 
+## <strong>Line</strong> too long
 
 <br>
 
 I did not know how to resolve these errors and in my research to find out how, they are classed as a style error and does not affect the code performance. I chose to ignore them and I dealt with any other error that arose, from trailing white lines to indents and so on.
+<br><br>
+
+## <strong>E6</strong> Syntax
+
+<br>
+
+<strong>Template literal syntax’ is only available in ES6 (use ‘esversion: 6’). (W119)jshint(W119).</strong>
+This is a fix I could have applied but to be honest I was nervous to try it and the code didn't have any errors other than this and even though it is an error it DID NOT affect the code or the performance of the site in any way. A way to fix this was to:-<br> Add a file named <strong>.jshintrc</strong> to the project and inside this file type:- <strong>{"esversion": 6}</strong>
 
 <p id="userex"><h1 align="center"><strong>VALIDATION</strong> RESULTS</h1></p>
 <details><summary><strong>CHECKOUT</strong> APP</summary>
