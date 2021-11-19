@@ -54,18 +54,45 @@ When testing for html it contained a lot of python code in it and as these resul
 This is a fix I could have applied but to be honest I was nervous to try it and the code didn't have any errors other than this and even though it is an error it DID NOT affect the code or the performance of the site in any way. A way to fix this was to:-<br> Add a file named <strong>.jshintrc</strong> to the project and inside this file type:- <strong>{"esversion": 6}</strong>
 
 <p id="userex"><h1 align="center"><strong>VALIDATION</strong> RESULTS</h1></p>
+
 <details><summary><strong>CHECKOUT</strong> APP</summary>
 <br>
 
 ![Validation Results](/media/checkout_results.jpg) 
+
 <br>
 
 <details><summary><strong>BAG</strong> APP</summary>
 <br>
 
-![Validation Results](/media/bag_results.jpg) 
+![Validation Results](/media/bag_results.jpg)
+
 <br>
 <details><summary><strong>BULITT_CREATIONS</strong> APP</summary>
 <br>
 
 ![Validation Results](/media/bulitt_results.jpg) 
+
+<br>
+<details><summary><strong>COMMISSION</strong> APP</summary>
+<br>
+
+![Validation Results](/media/commission_results.jpg) 
+
+<br>
+<details><summary><strong>CONTACT</strong> APP</summary>
+<br>
+
+![Validation Results](/media/contact_results.jpg) 
+
+<br>
+<details><summary><strong>HOME</strong> APP</summary>
+<br>
+
+![Validation Results](/media/home_results.jpg) 
+
+<br>
+<details><summary><strong>PRODUCTS</strong> APP</summary>
+<br>
+
+![Validation Results](/media/products_results.jpg) 
