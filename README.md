@@ -68,12 +68,12 @@ This project is an eCommerce shop front to host my graphic design and artistic c
 
 - Users of all ages.
 - Users interested in creativity and design.
-- Users with interest in collecting adn displaying works of art and creations.
-- Users who would like portraits done of their own.
+- Users with interest in collecting and displaying works of art and creations.
+- Users who would like portraits done of their own or for someone else as a gift.
 
 # Business Goals
 
-- To create a platform that enables the prospective client to find and purchase the product they like.
+- To create a platform that enables the prospective client to find and purchase the creation they like.
 - Offer a portrait or a design feature to encourage the user to interact more with the designer.
 - In order to increase people's interest, encourage users to register.
 - Offer a presentable design of the website. 
@@ -109,10 +109,10 @@ This project is an eCommerce shop front to host my graphic design and artistic c
 - As a shopper I want to be able to search for a product by name or description so I can find a specific product I'd like to purchase.
 
 ### Purchasing and Checkout  
-- As a registered shopper I want to be able to easily select quantity of a creation when purchasing it so I can ensure I am selecting correct creation and a correct quantity.
+- As a registered shopper I want to be able to easily select the quantity of a creation when purchasing it so I can ensure I am selecting the correct creation and the correct quantity.
 - As a registered shopper I want to be able to view items in my bag to be purchased so I can identify the total cost of my purchase and all items I will receive.
 - As a registered shopper I want to be able to adjust the quantity of individual items in my bag so I can easily make changes to my purchase before checkout.
-- As a registered shopper I want to be able to easily enter my payment information so I can check out quickly and with no hassle.
+- As a registered shopper I want to be able to easily enter my payment information so I can check out quickly and without any hassle.
 - As a registered shopper I want to be able to feel that my personal and payment information is safe and secure so I can confidently provide the needed informatoin to make a purchase.
 - As a registered shopper I want to be able to view an order confirmation after checkout so I can verify that I have not made any mistakes.
 - As a registered shopper I want to be able to receive an email confirmation after checking out so I can keep the records of my purchases.
@@ -122,7 +122,7 @@ This project is an eCommerce shop front to host my graphic design and artistic c
 - As the site owner I want to be able to Edit/Update a creation to apply any changes, be it in price, description, image or any other criteria.
 - As the site owner I want to be able to delete a creation and remove a creation if they are no longer available.
 - As a site owner I want to be able to allow the user to commission me to create something for them with a simple commission form that uploads their image to me directly.
-- As a site owner I want the user to be able to reach put to me with any comments or messages they have through a simple contact form.
+- As a site owner I want the user to be able to reach out to me with any comments or messages they have through a simple contact form.
 
 <p id="design"><h1 align="center"><strong>DES</strong>IGN</h1></p>
 
@@ -139,10 +139,10 @@ The main color used throughout the page is pale and light, almost white, as this
 ## Wireframes
 <br>
 
-<details><summary><strong>Mobile Tablet and Desktop</strong></summary>
+<details><summary><strong>Mobile, Tablet and Desktop</strong></summary>
 <br>
  
-## [Bulitt Creations Wireframes](https://github.com/DylanThomasShine/bulitt_creations/blob/main/Bulitt%20Creations%20Wireframes.pdf)
+## Please click [Bulitt Creations Wireframes](https://github.com/DylanThomasShine/bulitt_creations/blob/main/Bulitt%20Creations%20Wireframes.pdf)
 </details>
 <br><br>
 
