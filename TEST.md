@@ -96,3 +96,9 @@ This is a fix I could have applied but to be honest I was nervous to try it and 
 <br>
 
 ![Validation Results](/media/products_results.jpg) 
+
+<br>
+<details><summary><strong>PROFILES</strong> APP</summary>
+<br>
+
+![Validation Results](/media/profiles_results.jpg) 
