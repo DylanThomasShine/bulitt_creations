@@ -4,7 +4,7 @@
 
  <p><h1 align="center"><strong>TEST</strong> FILES</h1></p>                                                                                                                                                                                
 
-![User Story image](/media/storyimage.jpg)
+![User Story image](/media/testimages2.jpg)
 
 <br>
 
@@ -55,50 +55,81 @@ This is a fix I could have applied but to be honest I was nervous to try it and 
 
 <p id="userex"><h1 align="center"><strong>VALIDATION</strong> RESULTS</h1></p>
 
-<details><summary><strong>CHECKOUT</strong> APP</summary>
 <br>
-
-![Validation Results](/media/checkout_results.jpg) 
-
-<br>
-
 <details><summary><strong>BAG</strong> APP</summary>
 <br>
 
-![Validation Results](/media/bag_results.jpg)
+![Validation Results](/media/bag_results.jpg)</details>
 
 <br>
 <details><summary><strong>BULITT_CREATIONS</strong> APP</summary>
 <br>
 
-![Validation Results](/media/bulitt_results.jpg) 
+![Validation Results](/media/bulitt_results.jpg)</details> 
+
+<br>
+<details><summary><strong>CHECKOUT</strong> APP</summary>
+<br>
+
+![Validation Results](/media/checkout_results.jpg)</details>
 
 <br>
 <details><summary><strong>COMMISSION</strong> APP</summary>
 <br>
 
-![Validation Results](/media/commission_results.jpg) 
+![Validation Results](/media/commission_results.jpg)</details> 
 
 <br>
 <details><summary><strong>CONTACT</strong> APP</summary>
 <br>
 
-![Validation Results](/media/contact_results.jpg) 
+![Validation Results](/media/contact_results.jpg)</details> 
 
 <br>
 <details><summary><strong>HOME</strong> APP</summary>
 <br>
 
-![Validation Results](/media/home_results.jpg) 
+![Validation Results](/media/home_results.jpg)</details> 
 
 <br>
 <details><summary><strong>PRODUCTS</strong> APP</summary>
 <br>
 
-![Validation Results](/media/products_results.jpg) 
+![Validation Results](/media/products_results.jpg)</details> 
 
 <br>
 <details><summary><strong>PROFILES</strong> APP</summary>
 <br>
 
-![Validation Results](/media/profiles_results.jpg) 
+![Validation Results](/media/profiles_results.jpg)</details> 
+
+<br>
+<details><summary><strong>STATIC</strong> CSS</summary>
+<br>
+
+![Validation Results](/media/static_css_results.jpg)</details> 
+
+<br>
+<details><summary><strong>TEMPLATES/ALLAUTH/INCLUDES</strong> HTML</summary>
+<br>
+
+![Validation Results](/media/templates_results.jpg)</details> 
+
+<br>
+<details><summary><strong>MANAGE</strong> .PY</summary>
+<br>
+
+![Validation Results](/media/manage_results.jpg)</details> 
+<br>
+
+<br>
+<details><summary><strong>SCREEN SIZE</strong> RESPONSIVNESS</summary>
+<br>
+
+![Validation Results](/media/screen_results.jpg)</details> 
+<br><br>
+
+<p id="thanks"><h1 align="center"><strong>THANK</strong> YOU</h1></p>
+<p><h1 align="center">for<strong> browsing</strong> my <strong>TEST</strong> file.....</h1></p>
+
+## Please click  [HERE](https://github.com/DylanThomasShine/bulitt_creations/blob/main/README.md) to bring you back to where you left off in the README file.
