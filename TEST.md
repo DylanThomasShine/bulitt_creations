@@ -132,4 +132,4 @@ This is a fix I could have applied but to be honest I was nervous to try it and 
 <p id="thanks"><h1 align="center"><strong>THANK</strong> YOU</h1></p>
 <p><h1 align="center">for<strong> browsing</strong> my <strong>TEST</strong> file.....</h1></p>
 
-## Please click  [HERE](https://github.com/DylanThomasShine/bulitt_creations/blob/main/README.md) to bring you back to where you left off in the README file.
+## Please click  [HERE](https://github.com/DylanThomasShine/bulitt_creations/blob/main/README.md) to bring you back to the README file.
