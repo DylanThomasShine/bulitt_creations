@@ -2,6 +2,8 @@
 
 <br>
 
+![Portfolio website](/media/bulittcreationslogoweb2.jpg) 
+
  <p><h1 align="center"><strong>TEST</strong> FILES</h1></p>                                                                                                                                                                                
 
 ![User Story image](/media/testimages2.jpg)
